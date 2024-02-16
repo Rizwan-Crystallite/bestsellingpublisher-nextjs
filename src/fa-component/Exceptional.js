@@ -67,14 +67,14 @@ const Exceptional = ({
                     <Row className={`${styles.dreamsRow} justify-content-center pt-4 pb-5 gy-4 gx-2`}>
                         {data?.map((e, i) => (
                             <Col key={i} lg={4} >
-                                <div className={`${styles.ExceptionalCard} bg-white text-left`}>
+                                <div className={`${styles.ExceptionalCard} bg-white text-left position-relative`}>
                                     <h3 className='font-26 fw-500 font-primary txt-secondary1 pb-2'>{e.heading}</h3>
                                     <Row>
-                                        <Col lg={7}>
-                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>{e.para}</p>
+                                        <Col lg={7} md={7} sm={7} xs={6}>
+                                            <p className='font-15 font-secondary txt-secondary mt-3 '>{e.para}</p>
                                         </Col>
-                                        <Col lg={5}>
-                                            <Image src={e.path} alt={e.alt} quality={100} loading="lazy" width={500} height={500} className='img-fluid pt-3 vertical-align' />
+                                        <Col lg={5} md={5} sm={5} xs={6}>
+                                            <Image src={e.path} alt={e.alt} quality={100} loading="lazy" width={200} height={100} className='img-fluid m-auto' />
                                         </Col>
                                     </Row>
                                     {/* <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link> */}

@@ -26,12 +26,20 @@
   .bttns {
     gap: 20px;
   }
+  .audience Img{
+    display: none;
+  }
 }
 
-@media screen and (max-width: 575px) {
+@media (min-width:390px) and (max-width: 640px) {
   .bttns {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 20px;
     align-items: flex-start;
   }
+  .audienceImg{
+    display: none;
+  }
+
+  
 }

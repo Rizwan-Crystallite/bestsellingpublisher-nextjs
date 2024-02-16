@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 575px) {
   .bttns {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 20px;
     align-items: flex-start;
   }

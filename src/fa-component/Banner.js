@@ -31,10 +31,6 @@ import banslider4 from 'media/images/banner/logo/4.png'
 //     transform: translate3d(0, 0, 0);
 //   }
 // `;
-
-
-
-
 const Banner = (props) => {
 
     let bannerslider = {
@@ -73,181 +69,177 @@ const Banner = (props) => {
                 <Container fluid className='px-md-5 justify-center items-center'>
                     <Row className='truealign'>
                         <Col lg={6}>
-                         
-                                <div className={styles.bannerTxt}>
-                                    {props.title ?
-                                        props.title
-                                        :
-                                        ''
-                                    }
+                            <div className={styles.bannerTxt}>
+                                {props.title ?
+                                    props.title
+                                    :
+                                    ''
+                                }
 
-                                    {props.text ?
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.text}</p>
-                                        :
-                                        ''
-                                    }
+                                {props.text ?
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'>{props.text}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.subtext ?
+                                {props.subtext ?
 
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.subtext}</p>
-                                        :
-                                        ''
-                                    }
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'>{props.subtext}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.subtext1 ?
+                                {props.subtext1 ?
 
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
-                                        :
-                                        ''
-                                    }
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.subtext2 ?
+                                {props.subtext2 ?
 
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
-                                        :
-                                        ''
-                                    }
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.subtext3 ?
+                                {props.subtext3 ?
 
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext3}</p>
-                                        :
-                                        ''
-                                    }
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext3}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.subtext4 ?
+                                {props.subtext4 ?
 
-                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext4}</p>
-                                        :
-                                        ''
-                                    }
+                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext4}</p>
+                                    :
+                                    ''
+                                }
 
-                                    {props.discuss ?
-                                        <div className={`${styles.bttns} mt-4`}>
-                                            <Link className='btns btnPrimary' href="#">{props.discuss}</Link>
-                                            <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum}</Link>
-                                        </div>
-                                        :
-                                        ''
-                                    }
+                                {props.discuss ?
+                                    <div className={`${styles.bttns} mt-4`}>
+                                        <Link className='btns btnPrimary' href="#">{props.discuss}</Link>
+                                        <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum}</Link>
+                                    </div>
+                                    :
+                                    ''
+                                }
 
-                                    {props.homebannernum2 ?
-                                        <div className={`${styles.bttns} mt-3`}>
-                                            <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum2}</Link>
-                                        </div>
-                                        :
-                                        ''
-                                    }
+                                {props.homebannernum2 ?
+                                    <div className={`${styles.bttns} mt-3`}>
+                                        <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum2}</Link>
+                                    </div>
+                                    :
+                                    ''
+                                }
 
 
-                                    {props.bannercounter ?
-                                        <div className={`${styles.count} mt-3 mainclass`}>
-                                            <Row className={styles.counteRow}>
-                                                <Col className='colo'>
-                                                    <div className='d-flex align-items-center gap-3'>
-                                                        <Image quality={100}   loading="lazy" className='img-fluid'
-                                                            src={alignicon}
-                                                            alt='Best_Publisher'
-                                                        />
-                                                        <div>
-                                                            <span className='font-45 fw-700 font-primary txt-secondary'>400</span>
-                                                            <p className='font-13 fw-800 font-primary txt-primary'>Million Words</p>
-                                                        </div>
+                                {props.bannercounter ?
+                                    <div className={`${styles.count} mt-3 mainclass`}>
+                                        <Row className={styles.counteRow}>
+                                            <Col className='colo'>
+                                                <div className='d-flex align-items-center gap-3'>
+                                                    <Image quality={100} loading="lazy" className='img-fluid'
+                                                        src={alignicon}
+                                                        alt='Best_Publisher'
+                                                    />
+                                                    <div>
+                                                        <span className='font-45 fw-700 font-primary txt-secondary'>400</span>
+                                                        <p className='font-13 fw-800 font-primary txt-primary'>Million Words</p>
                                                     </div>
-                                                </Col>
-                                                <Col className='colo'>
-                                                    <div className='d-flex align-items-center gap-3'>
-                                                        <Image quality={100}   loading="lazy" className='img-fluid'
-                                                            src={authoricon}
-                                                            alt='Best_Publisher'
-                                                        />
-                                                        <div>
-                                                            <span className='font-45 fw-700 font-primary txt-secondary'>100</span>
-                                                            <p className='font-13 fw-800 font-primary txt-primary'>Authors</p>
-                                                        </div>
+                                                </div>
+                                            </Col>
+                                            <Col className='colo'>
+                                                <div className='d-flex align-items-center gap-3'>
+                                                    <Image quality={100} loading="lazy" className='img-fluid'
+                                                        src={authoricon}
+                                                        alt='Best_Publisher'
+                                                    />
+                                                    <div>
+                                                        <span className='font-45 fw-700 font-primary txt-secondary'>100</span>
+                                                        <p className='font-13 fw-800 font-primary txt-primary'>Authors</p>
                                                     </div>
-                                                </Col>
-                                                <Col md={4} className='colo'>
-                                                    <div className='d-flex align-items-center gap-3'>
-                                                        <Image quality={100}   loading="lazy" className='img-fluid'
-                                                            src={cupicon}
-                                                            alt='Best_Publisher'
-                                                        />
-                                                        <div>
-                                                            <span className='font-45 fw-700 font-primary txt-secondary'>870</span>
-                                                            <p className='font-13 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
-                                                        </div>
+                                                </div>
+                                            </Col>
+                                            <Col className='colo'>
+                                                <div className='d-flex align-items-center gap-3'>
+                                                    <Image quality={100} loading="lazy" className='img-fluid'
+                                                        src={cupicon}
+                                                        alt='Best_Publisher'
+                                                    />
+                                                    <div>
+                                                        <span className='font-45 fw-700 font-primary txt-secondary'>870</span>
+                                                        <p className='font-13 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
                                                     </div>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                        :
-                                        ''
-                                    }
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                    :
+                                    ''
+                                }
 
-                                    {props.img2 ?
-                                        <div className={styles.banshortimg}>
-                                            <Image quality={100}   src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
+                                {props.img2 ?
+                                    <div className={styles.banshortimg}>
+                                        <Image quality={100} src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
 
-                                        </div>
-                                        :
-                                        ''
-                                    }
+                                    </div>
+                                    :
+                                    ''
+                                }
 
-                                    <Slider {...bannerslider} className='mt-4 gloslider'>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider1}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider2}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider3}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider4}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider1}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                        <div>
-                                            <Image quality={100}   loading="lazy" className='img-fluid'
-                                                src={banslider2}
-                                                alt='Best_Publisher'
-                                            />
-                                        </div>
-                                     
-                                    </Slider>
+                                <Slider {...bannerslider} className='mt-4 gloslider'>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider1}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider2}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider3}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider4}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider1}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider2}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+
+                                </Slider>
 
 
 
-                                </div>
-                            
+                            </div>
                         </Col>
                         <Col lg={6} className={styles.bannImg}>
-                           
-                                <div className={styles.bannerImg}>
-                                    <Image quality={100}   className='bg-cover'
-                                        src={props.imageban}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                            
+                            <div className={styles.bannerImg}>
+                                <Image quality={100} className='img-fluid m-auto'
+                                    src={props.imageban}
+                                    alt='Best_Publisher'
+                                />
+                            </div>
                         </Col>
                     </Row>
                     {/* <Reveal keyframes={customAnimation}>SADDADASDAS</Reveal> */}
