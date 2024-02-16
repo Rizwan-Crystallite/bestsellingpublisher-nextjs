@@ -4,7 +4,6 @@ import FEATURED from '../component/ScriptWritingServices/featuredSec'
 import LHScript from '../component/ScriptWritingServices/LetUsPress'
 import GhostWriting from '../component/ghostWritingServices/ghostWriting'
 import CREATIVEGHOSTWRITERS from '../component/ghostWritingServices/creativeGhostWriters'
-import HeaderContactForm from '../component/headerContactformNew';
 import WMODE from '../component/workMode1'
 import CTA from '../component/cta3';
 import BTM from '../component/bottomLogos';
@@ -33,7 +32,6 @@ const Ghostwriting = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
         <LHScript />
         <GhostWriting />
         <CREATIVEGHOSTWRITERS />

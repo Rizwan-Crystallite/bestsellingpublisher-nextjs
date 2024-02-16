@@ -11,8 +11,8 @@ const publishing = () => {
                     <div className='flex gap-5 sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 items-center'>
                         <div className='basis-[50%] md:basis-[60%]'>
                             <div className=' xs:py-5'>
-                                <h6 className='text-[20px] font-semibold sm:text-base xs:text-base'>Publishing</h6>
-                                <h1 className='py-3 font-semibold leading-[45px] text-[40px] md:text-[35px] md:leading-[40px]   sm:text-4xl sm:w-[100%]  xs:text-3xl xs:w-[100%] '>
+                                <h6 className='text-[30px] font-primary text-[#40BEE2] font-semibold sm:text-base xs:text-base'>Publishing</h6>
+                                <h1 className='py-3 font-primary font-semibold leading-[45px] text-[40px] md:text-[35px] md:leading-[40px] sm:text-4xl sm:w-[100%]  xs:text-3xl xs:w-[100%] '>
                                     We Offer You a Chance to Expand Your Book’s Reputation on a Global Level
                                 </h1>
                                 <p className='xs:w-[100%]'>

@@ -63,8 +63,8 @@ const demandingSpecilaist = () => {
             <section className="py-[100px] sm:py-20">
                 <div className="container max-w-7xl font-secondary">
                     <div className="text-center justify-content-center ">
-                        <h6 className='text-xl font-semibold'>Let Us Help You</h6>
-                        <h2 className='text-[40px] font-semibold xs:text-4xl mt-2'>What Sets Us Apart?</h2>
+                        <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Let Us Help You</h6>
+                        <h2 className='text-[50px] font-primary font-bold xs:text-4xl mt-2'>What Sets Us Apart?</h2>
                         <p className='w-[80%] mx-auto my-3 text-[#05193c] xs:text-justify sm:w-[90%] xs:w-[90%]'>
                             Barnett Ghostwriting is a well-known international ghostwriting and editing firm operating for over a decade. Our experts create well-versed writing that demonstrates true professionalism while exhibiting creativity. Our services are not only economical but also ensure that both the needs of the authors and the preferences of their target audience are adequately met. Some of our platform's distinguishing traits are as follows:
                         </p>

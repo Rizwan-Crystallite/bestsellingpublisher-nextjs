@@ -109,8 +109,8 @@ const ParentComponent = () => {
         <div className='container max-w-7xl lg:max-w-6xl md:max-w-2xl text-[#1d1d1f] pt-20 xs:pt-10'>
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'>Fiction</h6>
-              <h3 className='font-bold text-[40px] md:text-4xl sm:text-3xl leading-10 xs:leading-tight xs:text-3xl'>Top-Ranked Fiction Writing Services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'>Fiction</h6>
+              <h3 className='font-bold font-primary text-[40px] md:text-4xl sm:text-3xl leading-tight xs:text-3xl'>Top-Ranked Fiction Writing Services</h3>
               <p>For this genre of compelling stories, engaging character dialogue, and emotional story beats, getting a professional story writer becomes a necessity. Our writers excel at bringing your story to life through expert storytelling elements, including careful word-building, persuasive character motivations, and intense and unpredictable plot development. This proficiency frequently results in our clients achieving best-selling author status.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -129,8 +129,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'> Content for Non Fiction</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Non fiction writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'> Content for Non Fiction</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Non fiction writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Non fiction ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -149,8 +149,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'> Content for Biography</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Biography writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'> Content for Biography</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Biography writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Biography ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -169,8 +169,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 md:gap-x-5 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'>Content for Informative</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Informative writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'>Content for Informative</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Informative writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Informative ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -189,8 +189,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'>Content for Autobiography</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Autobiography writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'>Content for Autobiography</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Autobiography writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Autobiography ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -209,8 +209,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'>Content for Memoir</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Memoir writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'>Content for Memoir</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Memoir writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Memoir ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>
@@ -229,8 +229,8 @@ const ParentComponent = () => {
 
           <div className='grid grid-cols-2 grid-rows-1 xs:grid-cols-1 xs:gap-y-10 items-center justify-center font-secondary'>
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold'>Content for Children Book</h6>
-              <h3 className='font-bold text-[40px] leading-10 md:text-4xl sm:text-3xl xs:leading-tight xs:text-3xl'>Top-ranked Children Book writing services</h3>
+              <h6 className='text-[30px] font-semibold text-[#40BEE2] font-primary'>Content for Children Book</h6>
+              <h3 className='font-bold font-primary text-[40px] leading-tight md:text-4xl sm:text-3xl xs:text-3xl'>Top-ranked Children Book writing services</h3>
               <p>For this genre of compelling stories, engaging character dialogue and emotional story beats. You require the services of a Children Book ghostwriter for hire. Our writers are adept at making the worlds of your stories come to life with the usage of story telling elements such as intensive world building, fascinating character motivations, intriguing plotting. This leads to our clients often times becoming best selling authors.</p>
               <div className='w-[60%] grid grid-cols-2 grid-rows-1 gap-x-5 py-5 md:w-[100%] sm:w-[90%] xs:w-[90%]'>
                 <button className='bg-[#00C0E4] py-2 text-white hover:bg-[#fff] hover:text-[#00c0e4] hover:border-[1px] hover:border-solid hover:border-[#00c0e4]'>Get Started</button>

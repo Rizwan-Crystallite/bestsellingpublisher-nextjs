@@ -66,7 +66,7 @@ const writingservices = () => {
             <div className="w-full px-8 py-16 xs:py-8 md:px-2 bg-[#f2f2f2] ">
                 <div className='max-w-7xl lg:max-w-6xl mx-auto flex md:grid gap-4 sm:grid sm:text-center xs:flex-none xs:grid xs:grid-cols-1 xs:text-left xs:gap-5'>
                     <div className='basis-[40%] py-10 xs:py-5'>
-                        <h4 className='text-[45px] font-bold md:py-5 md:text-center md:text-[45px] xs:text-[40px] xs:text-center xs:py-3 leading-[50px]'>Exceptional Book Writing Service!</h4>
+                        <h4 className='text-[45px] font-primary font-bold md:py-5 md:text-center md:text-[45px] xs:text-[40px] xs:text-center xs:py-3 leading-[50px]'>Exceptional Book Writing Service!</h4>
                     </div>
 
                     <div className={`${isLargeScreen ? '' : 'hidden'} md:grid md:grid-cols-2 md:gap-12 flex gap-4 md:px-10 md:items-center md:justify-center md:text-center sm:gap-10 sm:grid sm:grid-cols-2`}>

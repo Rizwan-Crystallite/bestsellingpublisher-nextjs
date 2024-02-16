@@ -70,37 +70,37 @@ const LetUsHelpArticle = () => {
                     <div className={`grid w-[85%] mx-auto ${isLargeScreen ? '' : 'hidden'} grid-cols-3 md:grid-cols-2 gap-4 mt-12 items-stretch justify-stretch`}>
                     <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 hover:invert-1 hover:brightness-100 hover:grayscale '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 hover:invert-1 hover:brightness-100 hover:grayscale '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Original Key-word  <br></br> optimized content</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Content writing <br></br>and editing services</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Professional Writers  <br></br>trained in SEO</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Easy-to-use  <br></br> platform </h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Topic  <br></br> Ideation</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-2xl hover:shadow-[#777777] hover:-translate-y-1 hover:scale-105 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={100} height={100} />
                                     <h4 className='text-xl font-semibold mx-auto '>Creative, <br></br>  out-of-the-box taglines</h4>
                                 </div>
                             </div>
@@ -110,37 +110,37 @@ const LetUsHelpArticle = () => {
                         <Slider {...settings}>
                         <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 hover:invert-1 hover:brightness-100 hover:grayscale '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 hover:invert-1 hover:brightness-100 hover:grayscale '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Original Key-word  <br></br> optimized content</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Content writing <br></br>and editing services</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Professional Writers  <br></br>trained in SEO</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Easy-to-use  <br></br> platform </h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Topic  <br></br> Ideation</h4>
                                 </div>
                             </div>
                             <div className="  ">
                                 <div className="hover:shadow-lg hover:shadow-[#777777] hover:-translate-y-1 hover:scale-95 hover:bg-[#1d1d1f] duration-300 hover:text-white box text-center bg-[#f2f2f2] py-16 px-auto items-center justify-center mx-auto rounded-3xl">
-                                    <Image quality={95} src="/assets/images/newimg/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
+                                    <Image quality={95} src="imageAR/checkmark.png" className='mx-auto mb-8 '  alt="Seal of Approval" width={70} height={70} />
                                     <h4 className='text-xl font-semibold mx-auto '>Creative, <br></br>  out-of-the-box taglines</h4>
                                 </div>
                             </div>

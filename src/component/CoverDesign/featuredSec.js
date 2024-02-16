@@ -11,7 +11,7 @@ const CoverFesc = (props) => {
         <div className=' container max-w-7xl lg:max-w-6xl mx-auto text-left justify-center items-center py-5' >
           <div className='grid grid-cols-2 md:mx-auto md:w-[90%] sm:grid-cols-1 xs:grid xs:grid-cols-1 items-center xs:text-center md:gap-x-4' >
             <div className='xs:w-[100%] xs:py-5 xs:px-6 g-2 sm:px-10 sm:text-center sm:pt-14  '>
-              <h1 className=' font-bold leading-[50px] text-5xl md:text-4xl sm:text-4xl xs:text-4xl xs:w-[100%]'>
+              <h1 className='font-primary font-bold leading-tight text-5xl md:text-4xl sm:text-4xl xs:text-4xl xs:w-[100%]'>
                 {props.title}
               </h1>
               <p className='mt-3 xs:w-[100%]'>

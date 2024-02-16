@@ -34,7 +34,6 @@ const about = () => {
           </>}
         />
         <LogoSliders></LogoSliders>
-        <HeaderContactForm />
         <PWMODE />
         <PUBLISHING />
         <CTA />
