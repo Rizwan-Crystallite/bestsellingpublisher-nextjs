@@ -41,10 +41,10 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="list text-white hover:text-white lg:hover:text-[#00C0E4]">Home</Link>
+                    <Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Home</Link>
                   </li>
                   <li className="relative group py-0 hover:text-[#00C0E4] z-50">
-                    <button className="hover:opacity-50 cursor-default text-white" aria-haspopup="true">Services
+                    <button className="hover:opacity-50 cursor-default text-black md:text-white" aria-haspopup="true">Services
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 ml-2 -mr-1 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" ></path>
                       </svg>
@@ -162,9 +162,9 @@ const Header = () => {
                       </div>
                     </div>
                   </li>
-                  <li><Link href="/" className="list text-white hover:text-white lg:hover:text-[#00C0E4]">Pricing</Link></li>
-                  <li><Link href="/" className="list text-white hover:text-white lg:hover:text-[#00C0E4]">About</Link></li>
-                  <li><Link href="/" className="list text-white hover:text-white lg:hover:text-[#00C0E4]">Contact Us</Link></li>
+                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Pricing</Link></li>
+                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">About</Link></li>
+                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Contact Us</Link></li>
                   <li>
                     <Link href="tel:;" className={`text-[15px] font-secondary  text-[#40BEE2] flex items-center gap-x-3`}>
                       <Image src={TelIcon} width={15} height={15} alt='Amazon Book Publishing' />
