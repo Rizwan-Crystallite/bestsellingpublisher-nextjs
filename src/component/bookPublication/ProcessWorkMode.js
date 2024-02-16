@@ -7,10 +7,10 @@ const ProcessWorkMode = () => {
             <section className="our-process w-full">
                 <div className="container max-w-7xl lg:max-6xl py-24 sm:py-10 xs:py-10 text-[#1d1d1f]">
                     <div className="text-center mb-10 justify-center">
-                        <h6 className='text-[20px] font-semibold'>
+                        <h6 className='text-[30px] text-[#40BEE2] font-primary font-semibold'>
                             Bringing you fame
                         </h6>
-                        <h2 className='text-[40px] font-semibold leading-10 my-5 sm:text-4xl xs:text-3xl xs:my-2 '>
+                        <h2 className='text-[40px] font-primary font-semibold leading-10 my-5 sm:text-4xl xs:text-3xl xs:my-2 '>
                             Why Publish With Us?
                         </h2>
                         <p className='w-[70%] mx-auto md:w-[90%] sm:w-[95%] xs:w-[100%]'>

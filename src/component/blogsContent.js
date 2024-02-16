@@ -121,7 +121,7 @@ const blogsContent = () => {
               <Image quality={95} src='/assets/images/newimg/blog1.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2 sm:p-1'  width={600} height={600} alt='blog' />
             </div>
             <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-              <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+              <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
               <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
               <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
               <br/>
@@ -133,7 +133,7 @@ const blogsContent = () => {
               <Image quality={95} src='/assets/images/newimg/blog2.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
             </div>
             <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
               <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
               <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
               <br/>
@@ -145,7 +145,7 @@ const blogsContent = () => {
               <Image quality={95} src='/assets/images/newimg/blog3.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
             </div>
             <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
               <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
               <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
               <br/>
@@ -166,7 +166,7 @@ const blogsContent = () => {
            <Image quality={95} src='/assets/images/newimg/blog3.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
          </div>
          <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
            <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
            <br/>
@@ -184,7 +184,7 @@ const blogsContent = () => {
            <Image quality={95} src='/assets/images/newimg/blog1.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
          </div>
          <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
            <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
            <br/>
@@ -203,7 +203,7 @@ const blogsContent = () => {
            <Image quality={95} src='/assets/images/newimg/blog1.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
          </div>
          <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
            <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
            <br/>
@@ -223,7 +223,7 @@ const blogsContent = () => {
           <Image quality={95} src='/assets/images/newimg/blog1.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
         </div>
         <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-           <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+           <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
           <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
           <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
           <br/>
@@ -243,7 +243,7 @@ const blogsContent = () => {
           <Image quality={95} src='/assets/images/newimg/blog1.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
         </div>
         <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-           <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+           <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
           <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
           <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
           <br/>
@@ -264,7 +264,7 @@ const blogsContent = () => {
            <Image quality={95} src='/assets/images/newimg/blog2.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
          </div>
          <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
            <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
            <br/>
@@ -284,7 +284,7 @@ const blogsContent = () => {
            <Image quality={95} src='/assets/images/newimg/blog2.jpg'  className='range-lg bg-transparent rounded-4xl p-5 md:p-2'  width={600} height={600} alt='blog' />
          </div>
          <div className='space-y-2 px-10 md:py-5 md:px-4 md:space-y-1 sm:px-1 xs:py-10 xs:px-5 sm:py-5'>
-            <h3 className='font-semibold text-4xl  md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
+            <h3 className='font-semibold text-4xl font-primary md:leading-10 xs:leading-tight sm:text-3xl xs:text-3xl'>Lorem ipsum dolor sit amet</h3>
            <h5 className='text-[14px] ' >September 12, 2023 - <span className='text-sky-400'> Book Publishing</span></h5>
            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida posuere. Curabitur elementum dui id diam dignissim faucibus.</p>
            <br/>

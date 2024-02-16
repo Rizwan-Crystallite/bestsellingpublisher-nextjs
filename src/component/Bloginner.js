@@ -36,7 +36,7 @@ const Bloginner = () => {
           <div className='rounded-3xl grid grid-cols-2 gap-5 grid-rows-1 xs:grid-cols-1 items-center justify-center font-secondary mb-4'>
          
           <div className='space-y-2 px-10'>
-            <h2 className='font-semibold text-[40px] leading-tight text-white'>Do you require book editing services? Sign up now and avail upto 50% off on all our editing services!</h2>
+            <h2 className='font-semibold font-primary text-[40px] leading-tight text-white'>Do you require book editing services? Sign up now and avail upto 50% off on all our editing services!</h2>
       
             <p className='text-white'>Work with our team for the most premium of book editing services to allow for complete perfection in your project!</p>
             <br/>
@@ -54,16 +54,16 @@ const Bloginner = () => {
                 
               </div>
               <div className='w-full mb-3'>
-                <input type='email' className="p-2bg-[#ffffff] text-[#989898] border-b-2 border-[#fff] pb-2 w-full" placeholder='Email' />
+                <input type='email' className="p-2 bg-[#ffffff] text-[#989898] border-b-2 border-[#fff] pb-2 w-full" placeholder='Email' />
               </div>
               <div className='w-full mb-3'>
-                <textarea type='textarea' className="p-2bg-[#ffffff] text-[#989898] border-b-2 border-[#fff] pb-2 w-full" placeholder='Email' ></textarea>
+                <textarea type='textarea' className="p-2 bg-[#ffffff] text-[#989898] border-b-2 border-[#fff] pb-2 w-full" placeholder='Message' ></textarea>
               </div>
             
              
                 <div className="basis-[30%] mb-4 flex items-center space-x-2 justify-center ">
                   
-                  <button href='#' className='w-full bg-white text-black px-10 py-2 hover:bg-[#00c0e4] hover:text-[#1d1d1f]'>Submit Now</button>
+                  <button href='#' className='w-full bg-white font-bold text-[#40BEE2] px-10 py-2 hover:bg-[#00c0e4] hover:text-black'>Submit Now</button>
                 </div>
 
 

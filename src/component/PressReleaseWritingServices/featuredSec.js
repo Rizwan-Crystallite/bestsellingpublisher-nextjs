@@ -19,7 +19,7 @@ const PressRelease = (props) => {
         <div className='max-w-7xl lg:max-w-6xl mx-auto grid grid-cols-1 xs:grid-cols-1 text-left justify-center ' >
           <div className='w-[55%] md:mx-auto md:w-[90%] sm:w-[100%] xs:w-[100%]' >
             <div className=' py-10 xs:w-[100%] xs:py-5 xs:px-6 xs:text-center md:text-center sm:text-center sm:px-5'>
-              <h1 className=' font-bold leading-[55px] text-5xl mt-12 md:mt-0 xs:mt-0 sm:text-4xl xs:text-4xl xs:w-[100%]'>
+              <h1 className='font-primary font-bold leading-[55px] text-5xl mt-12 md:mt-0 xs:mt-0 sm:text-4xl xs:text-4xl xs:w-[100%]'>
                 {props.title}
               </h1>
               <p className='w-[90%] md:w-[100%] sm:w-[100%] mt-3 sm:py-2 xs:py-5 xs:w-[100%]'>

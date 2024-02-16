@@ -47,13 +47,13 @@ const PublishingSlider = () => {
             <section className='publishing-slider font-secondary py-10 md:py-0 xs:py-0'>
                 <div className='container max-w-7xl lg:max-w-6xl justify-center mt-10 testimonial mx-auto mb-20 testimonial md:px-5 xs:px-7'>
                     <div className='py-10 text-center xs:py-5'>
-                        <h6 className='text-xl font-semibold sm:text-base xs:text-base'>Book cover</h6>
-                        <h3 className='font-bold text-4xl py-2'>Types of cover designs</h3>
+                        <h6 className='text-[30px] leading-tight font-primary text-[#40BEE2] font-semibold sm:text-base xs:text-base'>Book cover</h6>
+                        <h3 className='font-bold font-primary text-4xl py-2'>Types of cover designs</h3>
                         {/* <p className='w-[62%] mx-auto xs:w-[100%]'>At , we provide a variety of book trim size options, cover styles, bookbinding kinds, and other elevated possibilities. We can do whatever you can think of.</p> */}
                     </div>
                     <div className='justify-center  grid grid-rows-1 grid-cols-1 gap-4 space-x-5 items-center space-y-10 sm:px-14 '>
                         <Slider {...settings}>
-                            <div className='mx-auto'>
+                            <div className='mx-auto px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/bold-typography.png' width={240} height={240} alt="bold-typography" />
                                     <div >
@@ -62,7 +62,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/Illustrations.png'  width={240} height={240} alt="Illustrations" />
                                     <div >
@@ -71,7 +71,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/Retro.png' width={240} height={240}  alt="Retro" />
                                     <div >
@@ -80,7 +80,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/millennial-pink.png' width={240} height={240} alt="millennial-pink" />
                                     <div >
@@ -89,7 +89,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/colorful-children.png' width={240} height={240} alt="Colorful children books illustrations" />
                                     <div >
@@ -98,7 +98,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/designs-for-classic-literature.png' width={240} height={240} alt="designs-for-classic-literature" />
                                     <div >
@@ -107,7 +107,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/photography.png' width={240} height={240} alt="photography.png" />
                                     <div >
@@ -116,7 +116,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/minimalist-covers.png' width={240} height={240} alt="minimalist-covers" />
                                     <div >
@@ -125,7 +125,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/Portrait.png' width={240} height={240} alt="Portrait" />
                                     <div >
@@ -134,7 +134,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/Classic.png' width={240} height={240} alt="Classic" />
                                     <div >
@@ -143,7 +143,7 @@ const PublishingSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='publishing relative'>
+                            <div className='publishing relative  px-2'>
                                 <div className='relative'>
                                     <Image quality={95} src='/assets/images/newimg/hand-drawn-covers.png' width={240} height={240} alt="hand-drawn-covers" />
                                     <div >

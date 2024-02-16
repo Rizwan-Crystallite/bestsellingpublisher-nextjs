@@ -13,20 +13,19 @@ const creativeGhostWriters = () => {
                         </div>
                         <div className='basis-[65%] md:basis-[100%] sm:w-[100%] sm:mx-auto xs:w-[90%] xs:mx-auto md:mx-auto '>
                             <div className='sm:px-10 xs:py-5'>
-                                <h6 className='text-xl font-semibold'>Get Your</h6>
-                                <h1 className='  font-bold leading-[60px] text-[40px] md:text-4xl sm:text-4xl sm:w-[100%] sm:py-5 xs:text-4xl xs:w-[100%] '>
-                                    Press releases covered by the right sites
+                                <h1 className='capitalize font-primary font-bold leading-[60px] text-[40px] md:text-4xl sm:text-4xl sm:w-[100%] sm:py-5 xs:text-4xl xs:w-[100%] '>
+                                    Press releases covered by the <br/> right sites
                                 </h1>
                                 <p className='w-[90%] xs:w-[100%] xs:py-5 sm:w-[100%] sm:mx-auto'>
                                     Press Release gives you maximum acquaintance, achieved through the careful selection of your target audience through media and targeted niche.
                                 </p>
                                 <ul className="grid grid-cols-2 mt-5 gap-x-3 w-[60%] xs:grid-cols-1 md:w-[90%] sm:w-[90%] sm:gap-x-5 xs:w-[100%] md:mb-5  text-[17px] font-semibold ">
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 mr-2 hover:invert-75" />EIN Presswire</li>
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 first-letter mr-2 hover:invert-75" />eReleases</li>
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 mr-2 hover:invert-75" />issueWire</li>
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 mr-2 hover:invert-75" />Linking news</li>
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 mr-2 hover:invert-75" />Newswire</li>
-                                    <li className='flex border-b-2 border-solid border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={25} height={25} alt="Checkmark" className="h-4 w-4 mr-2 hover:invert-75" />PR Distribution</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] mr-2 hover:invert-75" />EIN Presswire</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] first-letter mr-2 hover:invert-75" />eReleases</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] mr-2 hover:invert-75" />issueWire</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] mr-2 hover:invert-75" />Linking news</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] mr-2 hover:invert-75" />Newswire</li>
+                                    <li className='flex border-b-2 border-solid items-center border-[#989898] py-3'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="h-[9px] w-[9px] mr-2 hover:invert-75" />PR Distribution</li>
                                 </ul>
                                 <div className='w-[50%] md:w-[50%] gap-x-5 grid grid-cols-2 grid-rows-1 py-5 md:py-1 sm:pt-10 sm:w-[80%] xs:w-[100%]'>
                                     <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>

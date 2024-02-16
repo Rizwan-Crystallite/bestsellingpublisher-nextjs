@@ -33,7 +33,6 @@ const editing = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
         <WEARE />
         <PWMODE />
         <CTA />

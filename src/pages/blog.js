@@ -29,9 +29,7 @@ const blog = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
         <WEARE />
-        {/* <TAbNAVIGATION/> */}
         <CTA />
         <BTM />
         <WMODE />

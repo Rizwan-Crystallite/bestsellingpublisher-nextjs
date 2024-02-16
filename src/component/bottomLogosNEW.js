@@ -42,7 +42,7 @@ const bottomLogos = () => {
   };
   return (
     <>
-      <div className='bg-[#fff] w-full'>
+      <div className='bg-[#fff] w-full py-6'>
         <div className='container max-w-7xl'>
           <div className='relative z-20'>
             <div

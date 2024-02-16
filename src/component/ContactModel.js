@@ -51,8 +51,8 @@ const Bloginner = () => {
     <>
       <section className="w-full py-10 font-secondary bg-cover bg-no-repeat bg-center">
         <div className="text-center mb-20 justify-center">
-          <h6 className="text-xl xs:text-base font-semibold">Connect with us</h6>
-          <h2 className="text-[40px] font-semibold leading-10 mt-2 mb-2 xs:text-[30px]">
+          <h6 className="text-[30px] font-primary text-[#40BEE2] xs:text-base font-semibold">Connect with us</h6>
+          <h2 className="text-[40px] font-primary font-semibold leading-10 mt-2 mb-2 xs:text-[30px]">
             We Would Love to Serve You
           </h2>
           <p className="w-[60%] mx-auto md:w-[90%] sm:w-[100%] xs:w-[100%] px-5">
@@ -116,7 +116,7 @@ const Bloginner = () => {
           </form>
           <div className="absolute right-[-70px] top-9 md:px-0 md:relative md:right-0 md:top-0 sm:relative sm:-right-2 sm:top-0 xs:relative xs:right-0 xs:top-0">
             <div className="bg-[#00C0E4] px-8 py-14 sm:px-5 sm:py-8 rounded-[30px] shadow-xl space-y-2">
-              <h4 className="font-bold text-white text-3xl mb-4">
+              <h4 className="font-bold font-primary text-white text-3xl mb-4">
                 Contact details
               </h4>
               <ul className="text-sm text-white">

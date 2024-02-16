@@ -69,10 +69,10 @@ const ProcessWorkMode = () => {
             <section className="w-full pb-20 md:pb-20 xs:pb-5 font-secondary">
                 <div className="container max-w-7xl py-5 text-[#1d1d1f] xs:py-16">
                     <div className="text-center mb-20 md:mb-10 xs:mb-5 justify-center">
-                        <h6 className='text-[20px] font-semibold'>
+                        <h6 className='text-[30px] font-primary text-[#40BEE2] font-semibold'>
                             What We
                         </h6>
-                        <h2 className='text-[40px] font-semibold leading-10 xs:text-[26px]'>
+                        <h2 className='text-[40px] font-primary font-semibold leading-10 xs:text-[26px]'>
                             Work On
                         </h2>
                     </div>
@@ -80,11 +80,10 @@ const ProcessWorkMode = () => {
                     <div className={` ${isLargeScreen ? '' : 'hidden'}  grid grid-cols-3 text-center gap-4 md:grid-cols-2 xs:grid-cols-1 md:w-[90%] mx-auto xs:w-[90%]`}>
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
-
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all mb-20'>
                                         Printed Books
-                                        <span className='block font-normal text-[13px] leading-5 mt-2'>
+                                        <span className='block font-secondary font-normal text-[13px] leading-5 mt-2'>
                                             Perfect, long-lasting covers to protect your story and message from damage
                                         </span>
                                     </p>
@@ -97,8 +96,8 @@ const ProcessWorkMode = () => {
 
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                         Photo Album
                                         <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -114,8 +113,8 @@ const ProcessWorkMode = () => {
 
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                         Comic Books
                                         <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -131,8 +130,8 @@ const ProcessWorkMode = () => {
 
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                         Magazine
                                         <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -148,8 +147,8 @@ const ProcessWorkMode = () => {
 
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                         Year Books
                                         <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -165,8 +164,8 @@ const ProcessWorkMode = () => {
 
                         <div className="col-md hover:-translate-y-1 hover:scale-105 duration-300 ">
                             <div>
-                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                    <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                    <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                         E Books
                                         <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -187,8 +186,8 @@ const ProcessWorkMode = () => {
                         <Slider {...settings}>
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             Printed Books
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -204,8 +203,8 @@ const ProcessWorkMode = () => {
 
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             Photo Album
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -221,8 +220,8 @@ const ProcessWorkMode = () => {
 
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             Comic Books
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -239,8 +238,8 @@ const ProcessWorkMode = () => {
 
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             Magazine
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -256,8 +255,8 @@ const ProcessWorkMode = () => {
 
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             Year Books
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>
@@ -273,8 +272,8 @@ const ProcessWorkMode = () => {
 
                             <div className="col-md hover:-translate-y-1 hover:scale-95 duration-300 ">
                                 <div>
-                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-10 px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
-                                        <p className='text-[20px] font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
+                                    <div className="box rounded-2xl bg-[#f2f2f2] text-[#1d1d1f] hover:text-white h-[100%] py-[100px] px-5 border-2 border-solid transition-[.5s] hover:bg-[#1d1d1f] hover:border-white">
+                                        <p className='text-[20px] font-primary font-semibold leading-6 m-0 transition-[.5s all] mb-20'>
 
                                             E Books
                                             <span className='block font-normal text-[13px] leading-5 mt-2'>

@@ -16,8 +16,8 @@ const ghostWriting = () => {
           <div className='grid grid-cols-2 items-center sm:grid-cols-1 xs:grid-cols-1'>
             <div className=''>
               <div className="text-left mb-0">
-                <h6 className='text-[20px] font-semibold'>Our Comprehensive</h6>
-                <h2 className='text-[40px] font-bold py-2 md:leading-tight xs:leading-tight'>Ghostwriting services</h2>
+                <h6 className='text-[30px] text-[#40BEE2] font-semibold'>Our Comprehensive</h6>
+                <h2 className='text-[40px] font-primary font-bold py-2 md:leading-tight xs:leading-tight'>Ghostwriting services</h2>
                 <p className='sm:text-justify xs:text-justify'>
                   We have a vast pool of ghostwriters ready to work with you to work together with you to identify the ideal match for your requirements. Our packages offer comprehensive PR and media campaigns, an audiobook featuring a skilled voice actor, and top-notch studio production, all depending on your needs. Furthermore, we will create distribution and retailer accounts in your name, guaranteeing your ownership of all rights and royalties.
                 </p>
@@ -35,14 +35,14 @@ const ghostWriting = () => {
           </div>
 
           <ul className="grid grid-cols-2 gap-x-8 w-[70%] xs:grid-cols-1 md:w-[100%] sm:w-[100%] xs:w-[100%] md:mb-10 text-[18px] font-semibold">
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Writing Genuine Content based on your idea</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Critical Review, Editing, and Proofreading</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Extensive Formatting, Typesetting, &amp; Designing</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Publishing, Branding, Marketing, and Promotions</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Critical Review and Analysis</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Book Coaching</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Copy Editing</li>
-            <li className='border-b-2 border-solid border-[#afafaf] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check1.png" width={20} height={20} alt="Checkmark" className="inline-block mr-2" />Developmental Editing</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Writing Genuine Content based on your idea</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Critical Review, Editing, and Proofreading</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Extensive Formatting, Typesetting, &amp; Designing</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Publishing, Branding, Marketing, and Promotions</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Critical Review and Analysis</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Book Coaching</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Copy Editing</li>
+            <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Developmental Editing</li>
           </ul>
           <div className='mx-auto py-3'>
             <div className='w-[30%] grid grid-cols-2 grid-rows-1 gap-x-6 py-5 relative md:w-[70%] sm:w-[100%] xs:w-[100%]'>

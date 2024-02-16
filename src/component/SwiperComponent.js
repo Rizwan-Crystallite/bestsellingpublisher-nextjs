@@ -100,10 +100,10 @@ const TestimonialsSlider = () => {
       <div className="container sm:container xs:container">
         <div>
           <div className="text-center">
-            <h6 className="font-semibold font-secondary text-[18px] mb-3">
+            <h6 className="font-semibold text-[#40BEE2] font-primary text-[30px] mb-3">
               Hear The Words Of
             </h6>
-            <h2 className="text-4xl font-bold mb-5 font-secondary">
+            <h2 className="text-4xl font-bold mb-5 font-primary">
               Appreciation from Our Clients
             </h2>
             <p className="text-lg mb-3 mx-auto text-[16px] xs:text-[15px]">

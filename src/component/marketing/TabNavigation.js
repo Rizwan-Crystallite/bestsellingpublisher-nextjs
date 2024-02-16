@@ -127,8 +127,8 @@ function VerticalNavTabs() {
       </div>
       <div className="w-3/4 xs:basis-[60%] bg-transparent items-center pl-32 py-24 lg:pl-16 xs:pl-5 sm:pl-5 xs:py-3 md:pl-10 md:py-14 text-[#1d1d1f]">
         {activeTab === 1 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal Marketing Assistants:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal Marketing Assistants:</h3>
           <p>We offer dedicated marketing assistants to facilitate the promotion, management, and execution of comprehensive promotional campaigns for your book launch across diverse online and offline channels. Tailoring their services to meet your specific requirements they ensure optimal support for your success.</p>
           <div className='w-[40%] text-center grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -136,8 +136,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 2 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Social Media Set-Up:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Social Media Set-Up:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -145,8 +145,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 3 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Creative and Appealing Bookmarks:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Creative and Appealing Bookmarks:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -154,8 +154,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 4 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Digital Postcards:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Digital Postcards:</h3>
           <p>We will provide Digital Postcards who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -163,8 +163,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 5 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'> Business Cards:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'> Business Cards:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -172,8 +172,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 6 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Small and Attractive Posters:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Small and Attractive Posters:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -181,8 +181,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 7 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%]  xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -190,8 +190,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 8 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
@@ -199,8 +199,8 @@ function VerticalNavTabs() {
           </div>
         </div>}
         {activeTab === 9 && <div>
-          <h6 className='text-xl font-semibold'>Publishing</h6>
-          <h3 className='text-[40px] leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
+          <h6 className='text-[30px] font-primary font-semibold text-[#40BEE2]'>Publishing</h6>
+          <h3 className='text-[40px] font-primary leading-[60px] gap-10 font-semibold sm:text-4xl xs:text-3xl xs:py-3 sm:py-3'>Personal marketing assistants:</h3>
           <p>We will provide personal marketing assistants who help promote, manage and run promotional campaigns for your book launch through various online and offline channels They will proide you fits your needs!</p>
           <div className='w-[50%] grid grid-cols-2 grid-rows-1 gap-2 py-5 sm:w-[70%] xs:w-[100%]'>
             <button className='bg-[#00C0E4] py-1 text-white hover:bg-transparent hover:border-solid hover:border-[1px] hover:border-[#1d1d1f] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu'>Get Started</button>
