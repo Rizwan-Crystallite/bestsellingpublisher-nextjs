@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import WS from '../component/writingservices';
 import Slider1 from '../component/Slider1';

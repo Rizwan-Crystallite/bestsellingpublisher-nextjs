@@ -36,7 +36,7 @@ const MagazineWriting = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
+        {/* </> */}
         <LHMagazine />
         <GhostWriting />
         <CREATIVEGHOSTWRITERS />

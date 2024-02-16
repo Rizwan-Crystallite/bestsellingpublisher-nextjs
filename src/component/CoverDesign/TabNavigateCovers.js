@@ -23,7 +23,7 @@ const TabNavigateCovers = () => {
 
                 </div>
             </section>
-        </>
+        {/* </> */}
 
     )
 }

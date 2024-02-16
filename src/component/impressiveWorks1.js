@@ -14,7 +14,7 @@ const impressiveWorks = (props) => {
           <div className='container max-w-7xl lg:max-w-6xl mx-auto'>
             <div className='py-20 xs:py-10'>
               <div className="text-center">
-                <h6 className='text-[20px] font-semibold mb-3 sm:text-base xs:text-base xs:mb-1'>
+                <h6 className='text-[30px] text-[#40BEE2] font-semibold mb-3 sm:text-base xs:text-base xs:mb-1 font-primary'>
                   Our impressive work
                 </h6>
                 <h2 className='mx-auto w-[60%] sm:w-[90%] text-[40px] leading-tight font-bold text-[#1d1d1f] md:text-[30px] sm:text-[34px] xs:text-[30px] pb-3 xs:w-[100%]'>

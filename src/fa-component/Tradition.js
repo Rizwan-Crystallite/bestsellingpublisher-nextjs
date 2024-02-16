@@ -122,7 +122,7 @@ const Tradition = () => {
                     </Row>
                 </Container>
             </section>
-        </>
+        {/* </> */}
     )
 }
 

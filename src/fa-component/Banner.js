@@ -259,7 +259,7 @@ const Banner = (props) => {
             </section>
 
 
-        </>
+        {/* </> */}
     )
 }
 

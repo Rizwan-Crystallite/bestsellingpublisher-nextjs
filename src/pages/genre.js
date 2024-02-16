@@ -33,7 +33,7 @@ const about = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
+        {/* </> */}
         <WEARE />
         <MANUSCRIPT />
         <CTA />

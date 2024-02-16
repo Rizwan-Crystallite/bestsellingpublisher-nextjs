@@ -22,7 +22,7 @@ const TabNavigationGenre = () => {
 
                 </div>
             </section>
-        </>
+        {/* </> */}
 
     )
 }

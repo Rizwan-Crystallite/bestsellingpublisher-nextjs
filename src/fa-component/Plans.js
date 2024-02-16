@@ -69,7 +69,7 @@ const Plans = () => {
                     </Row>
                 </Container>
             </section>
-        </>
+        {/* </> */}
     )
 }
 

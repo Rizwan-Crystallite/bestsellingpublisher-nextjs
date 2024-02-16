@@ -34,7 +34,7 @@ const about = () => {
           </>}
         />
         <LogoSliders />
-        <HeaderContactForm />
+        {/* </> */}
         <WEARE />
         <PWMODE />
         <BOOKCOVERS />

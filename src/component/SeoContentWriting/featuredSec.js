@@ -27,7 +27,7 @@ const GhostwritingBanner = (props) => {
         <div className='mx-auto text-left justify-center py-20  md:py-10 sm:px-10 sm:py-5 xs:py-10 xs:bg-left xs:bg-cover' >
           <div className='max-w-7xl z-10 relative lg:max-w-6xl grid grid-cols-1 mx-auto md:w-[90%]' >
             <div className='w-[85%] pt-8 pb-20 sm:w-[100%] sm:text-center sm:mx-auto sm:pb-0 xs:py-0 xs:px-5 xs:w-[100%] md:w-[100%] md:py-0'>
-              <h1 className='w-[75%] md:w-[100%] sm:w-[90%] font-bold leading-[70px] text-[60px] md:text-[50px] md:leading-[50px] mt-12 sm:mt-0 sm:text-4xl sm:mx-auto xs:text-4xl xs:w-[100%] '>
+              <h1 className='w-[75%] md:w-[100%] sm:w-[90%] font-bold font-primary leading-[70px] text-[60px] md:text-[50px] md:leading-[50px] mt-12 sm:mt-0 sm:text-4xl sm:mx-auto xs:text-4xl xs:w-[100%] '>
                 {props.title}
               </h1>
               <p className='w-[60%] md:w-[100%] mt-3 sm:mx-auto sm:w-[90%] xs:w-[90%]'>
@@ -55,7 +55,7 @@ const GhostwritingBanner = (props) => {
 
 
 
-    </>
+    {/* </> */}
   )
 }
 

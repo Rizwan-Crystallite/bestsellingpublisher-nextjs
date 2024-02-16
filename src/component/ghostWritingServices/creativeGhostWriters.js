@@ -12,10 +12,10 @@ const creativeGhostWriters = () => {
             <section className="our-bringing6 py-24">
                 <div className="container mx-auto max-w-7xl lg:max-w-6xl font-secondary">
                     <div className="text-center mb-5 heading">
-                        <h6 className="text-[20px] font-semibold">
+                        <h6 className="lg:text-[30px] text-[#40BEE2] font-primary text-[20px] font-semibold">
                             Our Creative Ghostwriters,
                         </h6>
-                        <h2 className='text-[40px] sm:text-4xl font-bold py-1'>
+                        <h2 className='text-[40px] font-primary sm:text-4xl font-bold py-1'>
                             Bringing Your Imagination To Life.
                         </h2>
                         <p className="mt-2 max-w-[70%] mx-auto sm:text-justify sm:max-w-[88%] xs:max-w-[95%]">
@@ -97,7 +97,7 @@ const creativeGhostWriters = () => {
                 </div>
             </section> */}
 
-        </>
+        {/* </> */}
     )
 }
 

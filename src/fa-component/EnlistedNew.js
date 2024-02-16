@@ -105,7 +105,7 @@ const Enlisted = ({
                 </Container>
             </section> */}
 
-        </>
+        {/* </> */}
     )
 }
 

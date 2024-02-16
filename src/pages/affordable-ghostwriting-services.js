@@ -5,7 +5,6 @@ import FEATURED from '../component/ghostWritingServices/featuredSec'
 import LETUSHELP from '../component/ghostWritingServices/LetUsHelp'
 import GhostWriting from '@/component/ghostWritingServices/ghostWriting'
 import CREATIVEGHOSTWRITERS from '../component/ghostWritingServices/creativeGhostWriters'
-import HEADERCONTACTNEW from '../component/headerContactformNew'
 
 import WMODE from '../component/workMode1'
 import CTA from '../component/cta3';
@@ -33,7 +32,6 @@ const Ghostwriting = () => {
           </>}
         />
         <LogoSliders />
-        <HEADERCONTACTNEW />
         <LETUSHELP
           title='What Sets Us Apart?'
           desc={'Barnett Ghostwriting is a well-known international ghostwriting and editing firm that has been operating for over a decade. Our experts create well-versed writing that demonstrates true professionalism while exhibiting creativity. Our services are not only economical but also ensure that both the needs of the authors and the preferences of their target audience are adequately met. Some of our platform’s distinguishing traits are as follows: '}

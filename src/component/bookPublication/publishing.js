@@ -27,7 +27,7 @@ const publishing = () => {
                     </div>
                 </div>
             </section>
-        </>
+        {/* </> */}
 
     )
 }

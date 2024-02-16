@@ -156,7 +156,7 @@ const swiperComponent = () => {
                     </Row>
                 </Container>
             </section>
-        </>
+        {/* </> */}
     )
 }
 

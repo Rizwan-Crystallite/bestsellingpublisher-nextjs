@@ -19,7 +19,7 @@ const manuscript = () => {
                     </div>
                 </div>
             </section>
-        </>
+        {/* </> */}
     )
 }
 

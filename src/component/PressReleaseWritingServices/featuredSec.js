@@ -40,7 +40,7 @@ const PressRelease = (props) => {
         </div>
 
       </section>
-    </>
+    {/* </> */}
   )
 }
 

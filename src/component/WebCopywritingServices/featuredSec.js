@@ -43,7 +43,7 @@ const GhostwritingBanner = (props) => {
         </div>
 
       </section>
-    </>
+    {/* </> */}
   )
 }
 
