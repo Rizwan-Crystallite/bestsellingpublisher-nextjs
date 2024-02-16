@@ -68,7 +68,7 @@ const Banner = (props) => {
             <section className={`${styles.homeBanner}`}>
                 <Container fluid className='px-md-5 justify-center items-center'>
                     <Row className='truealign'>
-                        <Col lg={6}>
+                        <Col xl={6}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -233,7 +233,7 @@ const Banner = (props) => {
 
                             </div>
                         </Col>
-                        <Col lg={6} className={styles.bannImg}>
+                        <Col xl={6} className={styles.bannImg}>
                             <div className={styles.bannerImg}>
                                 <Image quality={100} className='img-fluid m-auto'
                                     src={props.imageban}

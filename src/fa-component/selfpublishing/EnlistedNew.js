@@ -10,40 +10,42 @@ import before from 'media/images/flods/enlisted-before.png'
 import after from 'media/images/flods/enlisted-after.png'
 import mid from 'media/images/flods/enlisted-mid.png'
 import Link from 'next/link';
+import { faParagraph } from '@fortawesome/free-solid-svg-icons'
 // import { Slide } from "react-awesome-reveal";
-
 const data = [
     {
       para: 1,
-      paraTitle: "What Are Book Publishing Services?",
-      paraSubTitle: "Amazon KDP is a self publishing service from Amazon that allows authors to publish and distribute their books worldwide. It's a fast, easy and affordable way to get your book into the hands of readers looking for new titles to enjoy."
+      paraTitle: "What Is Self Publishing?",
+      paraSubTitle: "Self-publishing is the process of publishing your own book without the need for a traditional publisher. This means that you will be responsible for all aspects of the publishing process, from editing and design to printing and distribution. While self publishing services can be a lot of work, it also gives you a lot of control over your book and the publishing process."
     },
     {
       para: 2,
-      paraTitle: "Who Needs Book Publishing Services?",
-      paraSubTitle: "Anyone who wishes to self-publish their book without going through a traditional publishing house may need book publishing services. This is especially true if you are not familiar with the self-publishing process or do not have the time or resources to do it yourself."
+      paraTitle: "Why Would I Want To Self Publish My Book?",
+      paraSubTitle: "There exists multiple reasons why someone might want to self publish their book. Maybe you have a story that you feel is important and needs to be told, but you can’t find a traditional publisher who is interested. Or maybe you want to be in control of the publishing process and your book’s destiny. Either way, self publishing services can be a great way to get your book into the world."
     },
     {
       para: 3,
-      paraTitle: "Benefits Of Using Book Publishing Services?",
-      paraSubTitle: "There are many benefits to using book publishing services offered by book publishers, including professional support, cost savings, and peace of mind. When you work with a reputable book publishing service, you can be confident that your book will be of the highest quality and reach your target audience."
+      paraTitle: "How Do I Self Publish My Book?",
+      paraSubTitle: "There are a few different ways to go about self publishing your book. You can hire a professional books publisher to print your book for you or use an online print-on-demand service offered by Best Selling Publisher. You will also need to create a book design and cover and format your book for printing. Once your book is ready, you can start promoting and selling it to readers.  "
     },
     {
       para: 4,
-      paraTitle: "How Do I Choose A Book Publishing Service?",
-      paraSubTitle: "There are many factors to consider when choosing a book publishing service, such as cost, services offered, turnaround time, and reputation. It is important to do your research and choose a service that is right for you and your book. Finding the best digital book publishers in the industry is not an easy task. But as the leading book publishers in the industry, Best Selling Publisher offers various publishing services just for you! "
+      paraTitle: "What Are The Benefits Of Self Publishing?",
+      paraSubTitle: "A: Best self publishing services give you a lot of control over your book and the publishing process. You can determine the price of your book, the format in which it will be printed, and how it will be distributed. You can also reach a wider audience with the help of the best self publishing companies since your book will be available for sale online and in bookstores. And, of course, you get to keep all the profits from your book sales! "
     }
   ]
+
 const Enlisted = ({
     subtitle,
     title,
     desc,
     desc2,
+    paragraph
 }) => {
    
     return (
         <>
-             <section className={styles.enlistedFlod}>
+            <section className={styles.enlistedFlod}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-left'>
                         <Col lg={8} sm={12}>
@@ -52,7 +54,8 @@ const Enlisted = ({
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: title }}>
                                 </h2>
                                 <span className='bg-black txt-white mt-2 w-75 p-1 font-50 fw-500 d-block'>{desc}</span>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3 w-75' dangerouslySetInnerHTML={{ __html: desc2 }} />
+                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3 w-75' dangerouslySetInnerHTML={{ __html: desc2 }}/>
+                                <p>{paragraph}</p>
                             </div>
                         </Col>
                         <Col lg={8} sm={0}>

@@ -20,7 +20,10 @@ import before from 'media/images/flods/tradition-before.png'
 // mport { Fade } from "react-awesome-reveal";
 import Link from 'next/link'
 
-const Tradition = () => {
+const Tradition = ({
+    title,
+    desc
+}) => {
 
     let traditionslider = {
         dots: false,
@@ -60,8 +63,8 @@ const Tradition = () => {
 
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
-                                <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
-                                <p className='font-15 font-secondary txt-secondary'>Our Publishing Experts Can Help You</p>
+                                <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>{title}</h2>
+                                <p className='font-15 font-secondary txt-secondary'>{desc}</p>
                                 <div className='m-auto justify-content-center'>
                                     <Image quality={100} loading="lazy" className='img-fluid justify-content-center'
                                         src={before}

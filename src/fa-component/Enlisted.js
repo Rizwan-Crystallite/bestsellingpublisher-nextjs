@@ -6,9 +6,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // images
-import before from '.media/images/flods/enlisted-before.png'
-import after from '.media/images/flods/enlisted-after.png'
-import mid from '.media/images/flods/enlisted-mid.png'
+import before from 'media/images/flods/enlisted-before.png'
+import after from 'media/images/flods/enlisted-after.png'
+import mid from 'media/images/flods/enlisted-mid.png'
 import Link from 'next/link';
 // import { Slide } from "react-awesome-reveal";
 
@@ -60,9 +60,9 @@ const Enlisted = ({
                                             <p className='font-30 font-primary txt-secondary mt-5'>Industry Experts</p>
                                             <p className='font-15 font-secondary txt-secondary'>Our best seller publishing team is composed of industry experts.</p>
                                             <p className='font-30 font-primary txt-secondary mt-5'>Range of Services</p>
-                                            <p className='font-15 font-secondary txt-secondary'>We offer a wide range of book publishing services, including manuscript <br /> editing, formatting, and publishing consultation.</p>
+                                            <p className='font-15 font-secondary txt-secondary'>We offer a wide range of book publishing services, including manuscript <br/> editing, formatting, and publishing consultation.</p>
                                             <p className='font-30 font-primary txt-secondary mt-5'>Goal-Driven</p>
-                                            <p className='font-15 font-secondary txt-secondary'>We have a proven track record of success in helping our authors achieve <br /> their publishing goals.</p>
+                                            <p className='font-15 font-secondary txt-secondary'>We have a proven track record of success in helping our  authors<br/> achieve their publishing goals.</p>
                                             <p className='font-30 font-primary txt-secondary mt-5'>Affordable Packages</p>
                                             <p className='font-15 font-secondary txt-secondary'>We offer competitive pricing and terms that are favorable to our authors.</p>
                                             <p className='font-30 font-primary txt-secondary mt-5'>Passion and Creativity</p>
