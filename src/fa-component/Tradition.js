@@ -57,19 +57,22 @@ const Tradition = () => {
             <section className={styles.traditionFold}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
-                   
+
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
                                 <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
                                 <p className='font-15 font-secondary txt-secondary'>Our Publishing Experts Can Help You</p>
-                                <Image quality={100}   loading="lazy" className='img-fluid'
-                                    src={before}
-                                    alt='Best_Publisher'
-                                />
+                                <div className='m-auto justify-content-center'>
+                                    <Image quality={100} loading="lazy" className='img-fluid justify-content-center'
+                                        src={before}
+                                        alt='Best_Publisher'
+                                    />
+                                </div>
+
                             </div>
                         </Col>
-                        
-                       
+
+
                         <Col lg={12}>
                             <div className='mt-5 trade'>
                                 <Slider {...traditionslider}>
@@ -109,16 +112,16 @@ const Tradition = () => {
                                             alt='Best_Publisher'
                                         />
                                     </div>
-                                  
-                                   
+
+
                                 </Slider>
                             </div>
-                            <div className={`${Bookshelf.bttns} dislpay-flex mt-5 justify-content-center`}>
-                            <Link className='btns btnPrimary' href="#">Let's discuss</Link>
-                            <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
-                        </div>
+                            <div className={`${Bookshelf.bttns} d-flex mt-5 justify-content-center`}>
+                                <Link className='btns btnPrimary' href="#">Let's discuss</Link>
+                                <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
+                            </div>
                         </Col>
-                        
+
                     </Row>
                 </Container>
             </section>

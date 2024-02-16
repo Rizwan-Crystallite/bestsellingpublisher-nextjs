@@ -11,7 +11,7 @@ const swiperComponent = () => {
         register();
         const params = {
             slidesPerView: 3,
-            spaceBetween: 100,
+            spaceBetween: 120,
             injectStyles: [
                 `.swiper-pagination-bullet {
           width: 10px;
@@ -26,17 +26,17 @@ const swiperComponent = () => {
                 300: {
                     slidesPerView: 1,
                     spaceBetween: 10,
-                },
-                640: {
+                  },
+                  640: {
                     slidesPerView: 2,
                     spaceBetween: 20,
-                },
-                768: {
+                  },
+                  768: {
                     slidesPerView: 2,
-                },
-                1340: {
+                  },
+                  1340: {
                     slidesPerView: 3,
-                },
+                  },
             },
         };
 
@@ -123,7 +123,7 @@ const swiperComponent = () => {
                                 init={false}
                                 ref={swiperElRef}
                                 centered-slides="true"
-                                autoplay-delay="3000"
+                                //autoplay-delay="3000"
                                 loop="true"
                                 pagination="true"
                                 pagination-clickable="true"
@@ -133,7 +133,7 @@ const swiperComponent = () => {
                                         <swiper-slide key={index}>
                                             <div>
                                                 <div className="w-100 m-auto">
-                                                <div className="card testimonialscard">
+                                                    <div className="card testimonialscard">
                                                         <Image quality={100}
                                                             src={testimonial.avatar}
                                                             alt={testimonial.name}

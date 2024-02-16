@@ -52,13 +52,15 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 640px) {
   .bttns {
     flex-direction: unset;
     gap: 20px;
     align-items: flex-start;
   }
-
+  .bannerImg{
+    display: none;
+  }
   
 
 }
