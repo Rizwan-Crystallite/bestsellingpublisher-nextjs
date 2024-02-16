@@ -46,7 +46,7 @@ const NewFooter = () => {
 
     return (
         <>
-            <footer className='py-[40px] md:py-[70px] bg-[#F3F3F3]'>
+            <footer className='md:py-[40px] py-[70px] bg-[#F3F3F3]'>
                 <div className="px-5 md:container lg:container xl:container">
                     <div className="grid grid-cols-12">
                         <div className='col-span-12 lg:col-span-4 xl:col-span-4 pb-4 lg:pb-8'>
