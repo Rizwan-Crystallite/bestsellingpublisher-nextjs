@@ -46,15 +46,15 @@ const NewFooter = () => {
 
     return (
         <>
-            <footer className='md:py-[40px] py-[70px] bg-[#F3F3F3]'>
-                <div className="px-5 md:container lg:container xl:container">
+            <footer className='xs:py-[40px] py-[90px] bg-[#F3F3F3]'>
+                <div className="sm:px-5 md:container px-14">
                     <div className="grid grid-cols-12">
-                        <div className='col-span-12 lg:col-span-4 xl:col-span-4 pb-4 lg:pb-8'>
+                        <div className='xs:col-span-12 md:col-span-12 lg:col-span-4 col-span-4 pb-4 lg:pb-14'>
                             <div className="logo">
                                 <Link href="/">
                                     <Image src={Logo} alt='Amazon Book Publishing' />
                                 </Link>
-                                <p className='text-[14px] leading-[19px] font-[500] font-secondary pt-4 pb-5 lg:w-11/12'>Best Selling Publishers offer a wide range of professional book publishing services to give life to your words. Let your words be of fine quality with our publishing services, contact us today!</p>
+                                <p className='text-[13px] leading-[17px] font-[400] font-secondary pt-4 pb-5 md:w-full  w-11/12'>Best Selling Publishers offer a wide range of professional book publishing services to give life to your words. Let your words be of fine quality with our publishing services, contact us today!</p>
                                 <ul className='flex items-center gap-x-5'>
                                     <li>
                                         <Link href="javascript:;">
@@ -74,88 +74,88 @@ const NewFooter = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-span-12 lg:col-span-8 xl:col-span-8 pb-4 lg:pb-8">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-y-5">
-                                <div className="items">
-                                    <p className='text-[16px] font-medium font-secondary pb-3'>Our Services</p>
-                                    <ul>
-                                        <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
-                                                Book Publishing
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
-                                                Ebook Publishing
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
-                                                Digital Book Publishing
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
-                                                Amazon  Publishing
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
-                                                Self Publishing
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="items">
+                        <div className="xs:col-span-12 md:col-span-12 lg:col-span-8 col-span-8 pb-4 lg:pb-14">
+                            <div className="grid grid-cols-12 gap-y-5">
+                                <div className="xs:col-span-12 col-span-2 items">
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Quick Links</p>
                                     <ul>
                                         <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Home
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Pricing
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Blogs
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[14px] font-medium font-secondary leading-[30px]'>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 About
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="items">
+                                <div className="xs:col-span-12 col-span-3 items">
+                                    <p className='text-[16px] font-medium font-secondary pb-3'>Our Services</p>
+                                    <ul>
+                                        <li>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                Book Publishing
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                Ebook Publishing
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                Digital Book Publishing
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                Amazon  Publishing
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                Self Publishing
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="xs:col-span-12 col-span-4 items">
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Contact Us</p>
                                     <ul>
-                                        <li className='mb-5'>
-                                            <Link href="mailto:;" className='flex items-start gap-x-2 text-[14px] font-medium font-secondary leading-[15px]'>
-                                                <Image src={Tel} alt='Amazon Book Publishing ' />
+                                        <li className='xl:pb-5 pb-3'>
+                                            <Link href="mailto:;" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                <Image src={Tel} alt='Amazon Book Publishing ' className='min-h-[25px]object-contain ' />
                                                 info@bestsellingpublisher.com
                                             </Link>
                                         </li>
-                                        <li className='mb-5'>
-                                            <Link href="javascript:;" className='flex items-start gap-x-2 text-[14px] font-medium font-secondary leading-[15px]'>
-                                                <Image src={Email} alt='Amazon Book Publishing ' />
+                                        <li className='xl:pb-5 pb-3'>
+                                            <Link href="javascript:;" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                                <Image src={Email} alt='Amazon Book Publishing ' className='object-contain w-[15px] h-[15px]' />
                                                 (800) 781-9093 (Toll Free)
                                             </Link>
                                         </li>
-                                        <li className='mb-5'>
-                                            <Link href="javascript:;" className='flex items-start gap-x-2 text-[14px] font-medium font-secondary leading-[23px]'>
-                                                <Image src={Location} alt='Amazon Book Publishing ' />
+                                        <li className='xl:pb-5 pb-3'>
+                                            <Link href="javascript:;" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[20px]'>
+                                                <Image src={Location} alt='Amazon Book Publishing ' className='min-h-[25px]object-contain xl:pt-0 pt-1' />
                                                 1001 Wilshire Boulevard #1176
                                                 Los Angeles, CA 90017
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="payment_method">
+                                <div className="xs:col-span-12 col-span-3 payment_method">
                                     <Image src={Payment1} alt='Amazon Book Publishing' className='mb-3 sm:ml-auto lg:w-[70%] lg:ml-auto' />
                                     <Image src={Payment2} alt='Amazon Book Publishing' className='sm:ml-auto lg:w-[70%] lg:ml-auto' />
                                 </div>
@@ -163,7 +163,7 @@ const NewFooter = () => {
                         </div>
                         <div className="col-span-12">
                             <div className="xl:flex lg:flex items-center justify-between gap-x-7 pt-4 lg:pt-8 border-t border-[#DBDBDB] relative hidden">
-                                <p></p>
+                                <p className='text-black text-[16px] font-[400] font-secondary absolute top-[-16px] left-0 bg-[#F3F3F3] px-4'>Award</p>
                                 <div className="slide">
                                     <Image src={Slide1} alt='Amazon Book Publishing ' />
                                 </div>
