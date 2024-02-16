@@ -875,4 +875,19 @@ input[type=number] {
       opacity: 1;
       transform: scale(1.4);
    }
+   .space-x-6> :not([hidden])~ :not([hidden]) {
+      margin-right: inherit !important;
+      margin-left: inherit !important;
+   }
+
+}
+
+@media screen and (min-width: 992px) {
+   .slick-slider {
+      display: none !important;
+   }
+
+   a:hover {
+      color: inherit !important;
+   }
 }

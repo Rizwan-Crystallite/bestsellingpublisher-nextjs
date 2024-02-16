@@ -19,12 +19,7 @@ export default function App({ Component, pageProps }) {
       <main className={`${primary.className} ${SfProDisplay.variable}`}>
         <Headernew />
         <Component {...pageProps} />
-
         <Footer1 />
-        <div>
-          {/* <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} /> */}
-        </div>
-
       </main>
     </>
   );

@@ -47,9 +47,9 @@ const NewFooter = () => {
     return (
         <>
             <footer className='py-[40px] md:py-[70px] bg-[#F3F3F3]'>
-                <div className="container">
+                <div className="px-5 md:container lg:container xl:container">
                     <div className="grid grid-cols-12">
-                        <div className='col-span-12 lg:col-span-4 pb-4 lg:pb-8'>
+                        <div className='col-span-12 lg:col-span-4 xl:col-span-4 pb-4 lg:pb-8'>
                             <div className="logo">
                                 <Link href="/">
                                     <Image src={Logo} alt='Amazon Book Publishing' />
@@ -74,8 +74,8 @@ const NewFooter = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-span-12 lg:col-span-8 pb-4 lg:pb-8">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-5">
+                        <div className="col-span-12 lg:col-span-8 xl:col-span-8 pb-4 lg:pb-8">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-y-5">
                                 <div className="items">
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Our Services</p>
                                     <ul>
@@ -156,13 +156,13 @@ const NewFooter = () => {
                                     </ul>
                                 </div>
                                 <div className="payment_method">
-                                    <Image src={Payment1} alt='Amazon Book Publishing' className='mb-3 sm:ml-auto' />
-                                    <Image src={Payment2} alt='Amazon Book Publishing' className='sm:ml-auto' />
+                                    <Image src={Payment1} alt='Amazon Book Publishing' className='mb-3 sm:ml-auto lg:w-[70%] lg:ml-auto' />
+                                    <Image src={Payment2} alt='Amazon Book Publishing' className='sm:ml-auto lg:w-[70%] lg:ml-auto' />
                                 </div>
                             </div>
                         </div>
                         <div className="col-span-12">
-                            <div className="lg:flex items-center justify-between gap-x-7 pt-4 lg:pt-8 border-t border-[#DBDBDB] relative hidden">
+                            <div className="xl:flex lg:flex items-center justify-between gap-x-7 pt-4 lg:pt-8 border-t border-[#DBDBDB] relative hidden">
                                 <p></p>
                                 <div className="slide">
                                     <Image src={Slide1} alt='Amazon Book Publishing ' />
