@@ -10,53 +10,55 @@ import before from 'media/images/flods/enlisted-before.png'
 import after from 'media/images/flods/enlisted-after.png'
 import mid from 'media/images/flods/enlisted-mid.png'
 import Link from 'next/link';
+import { faParagraph } from '@fortawesome/free-solid-svg-icons'
 // import { Slide } from "react-awesome-reveal";
-
 const data = [
     {
       para: 1,
-      paraTitle: "What Are Book Publishing Services?",
-      paraSubTitle: "Amazon KDP is a self publishing service from Amazon that allows authors to publish and distribute their books worldwide. It's a fast, easy and affordable way to get your book into the hands of readers looking for new titles to enjoy."
+      paraTitle: "You'll Save Time:",
+      paraSubTitle: "A professional book publishing service will handle all the technical aspects of creating and formatting your book, so you can focus on writing."
     },
     {
       para: 2,
-      paraTitle: "Who Needs Book Publishing Services?",
-      paraSubTitle: "Anyone who wishes to self-publish their book without going through a traditional publishing house may need book publishing services. This is especially true if you are not familiar with the self-publishing process or do not have the time or resources to do it yourself."
+      paraTitle: "You'll Get Expert Help: ",
+      paraSubTitle: "A good digital book publishing service will have a team of experienced editors, designers, and marketers who can help make your book the best it can be."
     },
     {
       para: 3,
-      paraTitle: "Benefits Of Using Book Publishing Services?",
-      paraSubTitle: "There are many benefits to using book publishing services offered by book publishers, including professional support, cost savings, and peace of mind. When you work with a reputable book publishing service, you can be confident that your book will be of the highest quality and reach your target audience."
+      paraTitle: "You'll Reach A Wider Audience: ",
+      paraSubTitle: "With the help of a digital book publishing service , your book will be available to readers all over the world. "
     },
     {
       para: 4,
-      paraTitle: "How Do I Choose A Book Publishing Service?",
-      paraSubTitle: "There are many factors to consider when choosing a book publishing service, such as cost, services offered, turnaround time, and reputation. It is important to do your research and choose a service that is right for you and your book. Finding the best digital book publishers in the industry is not an easy task. But as the leading book publishers in the industry, Best Selling Publisher offers various publishing services just for you! "
+      paraTitle: "You'll Make More Money: ",
+      paraSubTitle: "A professional book publishing service will ensure your book is priced correctly and marketed effectively, so you can earn more royalties. "
     }
   ]
+
 const Enlisted = ({
     subtitle,
     title,
     desc,
     desc2,
+    paragraph
 }) => {
    
     return (
         <>
             <section className={styles.enlistedFlod}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-center'>
-                        <Col lg={10}>
-
+                    <Row className='justify-content-left'>
+                        <Col lg={8} sm={12}>
                             <div className={`${styles.enlistedHead} text-left`}>
                                 <h4 className='font-30 font-primary txt-primary'>{subtitle}</h4>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: title }} />
-                                <span className="bg-black txt-white mt-2 p-1 font-50 fw-500 d-block w-50">{desc}</span>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: desc2 }} />
+                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: title }}>
+                                </h2>
+                                <span className='bg-black txt-white mt-2 w-75 p-1 font-50 fw-500 d-block'>{desc}</span>
+                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3 w-75' dangerouslySetInnerHTML={{ __html: desc2 }}/>
+                                <p>{paragraph}</p>
                             </div>
-
                         </Col>
-                        <Col lg={10}>
+                        <Col lg={8} sm={0}>
                             <div className={`${styles.enlisContnt} text-center mt-3`}>
                                 <div className={styles.enlisImg}>
                                     <Image quality={100} loading="lazy" className='img-fluid'
@@ -75,7 +77,7 @@ const Enlisted = ({
                                             src={mid}
                                             alt='Best_Publisher'
                                         />
-                                        <div className='pb-5 w-50'>
+                                        <div className='pb-5 '>
                                             {data?.map((e, i) => (
                                                 <div key={i}>
                                                     <p className='font-30 font-primary txt-secondary mt-5' dangerouslySetInnerHTML={{ __html: e.paraTitle }} />

@@ -68,7 +68,7 @@ const Exceptional = ({
                         {data?.map((e, i) => (
                             <Col key={i} lg={4} >
                                 <div className={`${styles.ExceptionalCard} bg-white text-left position-relative`}>
-                                    <h3 className='font-26 fw-500 font-primary txt-secondary1 pb-2'>{e.heading}</h3>
+                                    <h3 className='font-26 fw-700 font-primary txt-secondary1 pb-2'>{e.heading}</h3>
                                     <Row>
                                         <Col lg={7} md={7} sm={7} xs={6}>
                                             <p className='font-15 font-secondary txt-secondary mt-3 '>{e.para}</p>

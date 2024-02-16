@@ -94,7 +94,10 @@ const amazonpublishing = () => {
       <Enlistedlogo />
 
       {/*========= Tradition fold =========*/}
-      <Tradition />
+      <Tradition 
+      title="Top-Notch Amazon Self Publishing Services"
+      desc="Let our publishing pros make your books rock on amazon!"
+      />
 
       {/*========= Enlisted fold =========*/}
       <EnlistedNew
