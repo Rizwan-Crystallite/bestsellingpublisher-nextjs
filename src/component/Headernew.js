@@ -26,7 +26,7 @@ const Header = () => {
       {/* <TOPHEADER1 /> */}
       <div className='w-full font-secondary pt-4'>
         <header className="bg-white relative z-30">
-          <div className="container mx-auto py-4 max-w-7xl xs:px-4 md:px-4 px-4">
+          <div className="container mx-auto py-4 xs:px-4 md:px-4 px-4">
             <div className="items-center justify-between flex grid-cols-2 grid-rows-1">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-xl font-bold text-indigo-500">
