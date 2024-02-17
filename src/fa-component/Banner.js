@@ -66,8 +66,8 @@ const Banner = (props) => {
     return (
         <>
             <section className={`${styles.homeBanner}`}>
-                <Container fluid className='px-md-5 justify-center items-center'>
-                    <Row className='truealign'>
+                <Container fluid className='px-md-5 justify-center'>
+                    <Row className='truealign align-items-end'>
                         <Col lg={6}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
@@ -144,7 +144,7 @@ const Banner = (props) => {
                                                         src={alignicon}
                                                         alt='Best_Publisher'
                                                     />
-                                                    <div>
+                                                    <div style={{lineHeight: 1}}>
                                                         <span className='font-50 fw-700 font-primary txt-secondary'>400</span>
                                                         <p className='font-20 fw-800 font-primary txt-primary'>Million Words</p>
                                                     </div>
@@ -156,7 +156,7 @@ const Banner = (props) => {
                                                         src={authoricon}
                                                         alt='Best_Publisher'
                                                     />
-                                                    <div>
+                                                    <div style={{lineHeight: 1}}>
                                                         <span className='font-50 fw-700 font-primary txt-secondary'>100</span>
                                                         <p className='font-20 fw-800 font-primary txt-primary'>Authors</p>
                                                     </div>
@@ -168,7 +168,7 @@ const Banner = (props) => {
                                                         src={cupicon}
                                                         alt='Best_Publisher'
                                                     />
-                                                    <div>
+                                                    <div style={{lineHeight: 1}}>
                                                         <span className='font-50 fw-700 font-primary txt-secondary'>870</span>
                                                         <p className='font-20 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
                                                     </div>
@@ -181,14 +181,14 @@ const Banner = (props) => {
                                 }
 
                                 {props.img2 ?
-                                    <div className={styles.banshortimg}>
+                                    <div className={styles.banshortimg} style={{paddingBottom: "50px"}}>
                                         <Image quality={100} src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
 
                                     </div>
                                     :
                                     ''
                                 }
-
+{/* 
                                 <Slider {...bannerslider} className='mt-4 gloslider'>
                                     <div>
                                         <Image quality={100} loading="lazy" className='img-fluid'
@@ -227,7 +227,7 @@ const Banner = (props) => {
                                         />
                                     </div>
 
-                                </Slider>
+                                </Slider> */}
 
 
 
