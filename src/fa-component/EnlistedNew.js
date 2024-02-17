@@ -24,9 +24,9 @@ const Enlisted = ({
         <>
             <section className={styles.enlistedFlod}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-center'>
+                    <Row className='justify-content-left'>
                         <Col lg={10} sm={12}>
-                            <div className={`${styles.enlistedHead} text-center`}>
+                            <div className={`${styles.enlistedHead} text-left`}>
                                 <h4 className='font-30 font-primary txt-primary'>{subtitle}</h4>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: title }}>
                                 
