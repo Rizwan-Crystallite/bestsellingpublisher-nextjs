@@ -22,11 +22,11 @@ const Ghostwriting = () => {
           banneraffordable='affo'
           title='The Best Affordable and Professional Ghostwriting Services Agency'
           dec={` We’ve helped thousands of authors express themselves eloquently; you can be next! Hire our top-tier expert writers today and imprint your words in your readers’ minds forever.`}
-          href1={<> <Link href=" " data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="tel:(800)781-9093" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
           </Link> </>}
           href2={<>
-            <Link href=" " className="chat btn btn-white-border ml-4">
+            <Link href="javascript:$zopim.livechat.window.show()" className="chat btn btn-white-border ml-4">
               Live Chat
             </Link>
           </>}

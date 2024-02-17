@@ -162,11 +162,11 @@ const Header = () => {
                       </div>
                     </div>
                   </li>
-                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Pricing</Link></li>
-                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">About</Link></li>
-                  <li><Link href="/" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Contact Us</Link></li>
+                  <li><Link href="/hardcover-book-printing-services" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Printing</Link></li>
+                  <li><Link href="/aboutus" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">About</Link></li>
+                  <li><Link href="/contact-us" className="list text-black md:text-white hover:text-white lg:hover:text-[#00C0E4]">Contact Us</Link></li>
                   <li>
-                    <Link href="tel:;" className={`text-[15px] font-secondary  text-[#40BEE2] flex items-center gap-x-3`}>
+                    <Link href="tel:(800)781-9093" className={`text-[15px] font-secondary  text-[#40BEE2] flex items-center gap-x-3`}>
                       <Image src={TelIcon} width={15} height={15} alt='Amazon Book Publishing' />
                       <span className='border-l border-[#40BEE2] pl-[10px]'>(800)781-9093</span>
                     </Link>
