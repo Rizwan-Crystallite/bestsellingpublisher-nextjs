@@ -19,7 +19,6 @@
       transform: translatey(0px);
    }
 }
-
 .avatar {
    width: 120px;
    height: 170px;
@@ -159,7 +158,10 @@ p {
    margin-bottom: 0px !important;
    line-height: 1.7;
 }
-
+p,li{
+   font-family: var(--secondary-fonts) !important;
+   font-weight: 500 !important;
+}
 ul {
    list-style-type: none;
 }

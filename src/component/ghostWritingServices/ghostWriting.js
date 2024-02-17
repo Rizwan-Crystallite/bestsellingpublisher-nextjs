@@ -36,7 +36,7 @@ const ghostWriting = ({
             </div>
           </div>
 
-          <ul className="grid grid-cols-2 gap-x-8 w-[70%] xs:grid-cols-1 md:w-[100%] sm:w-[100%] xs:w-[100%] md:mb-10 text-[18px] font-semibold">
+          <ul className="grid grid-cols-2 gap-x-8 xl:w-[75%] lg:w-[85%] w-full xs:grid-cols-1 md:mb-10 text-[18px] font-semibold">
             <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Writing Genuine Content based on your idea</li>
             <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Critical Review, Editing, and Proofreading</li>
             <li className='border-b-2 border-solid border-[#40BEE2] py-4 xs:mr-0 md:mr-5'><Image quality={95} src="/assets/images/newimg/color-check2.png" width={9} height={9} alt="Checkmark" className="inline-block mr-2" />Extensive Formatting, Typesetting, &amp; Designing</li>
