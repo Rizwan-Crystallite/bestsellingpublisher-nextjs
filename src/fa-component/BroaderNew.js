@@ -25,7 +25,7 @@ const Broader = ({
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-4' dangerouslySetInnerHTML={{__html:title}} />
                                 <p className='font-15 font-secondary txt-secondary mb-4' dangerouslySetInnerHTML={{ __html: desc }}/>
                                 <div className={`${Bookshelf.bttns} dislpay-flex`}>
-                                <Link className='btns btnBlack' href="#">Let's discuss</Link>
+                                <Link className='btns btnBlack' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
                                 <Link className='btns btnTransprnt text-black' href="tel:(800)781-9093">(800)781-9093</Link>
                             </div>
                             </div>

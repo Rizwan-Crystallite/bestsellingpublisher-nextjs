@@ -44,7 +44,7 @@ const Broader = ({
                                         </ul>
                                     </Col>
                                     <div className={`${Bookshelf.bttns} mt-5`}>
-                                        <Link className='btns btnPrimary' href="#">Let's discuss</Link>
+                                        <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
                                         <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
                                     </div>
                                 </Row>

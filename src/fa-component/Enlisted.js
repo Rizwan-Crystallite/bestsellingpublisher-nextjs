@@ -77,7 +77,7 @@ const Enlisted = ({
                                 </div>
                             </div>
                             <div className={`${Bookshelf.bttns} dislpay-flex mt-5 justify-content-center`}>
-                                <Link className='btns btnPrimary' href="#">Let's discuss</Link>
+                                <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
                                 <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
                             </div>
                         </Col>
@@ -97,7 +97,7 @@ const Enlisted = ({
                             </div>
 
                             <div className="bttns1black mt-4 mb-5 mb-md-0">
-                                <Link className="btns btnBlack" href="/#">Get Onboard </Link>
+                                <Link className="btns btnBlack" href="javascript:$zopim.livechat.window.show()">Get Onboard </Link>
                                 <Link className="btns btnTransprnt" href="tel:(800)781-9093">(800) 781-9093</Link>
                             </div>
                         </Col>
