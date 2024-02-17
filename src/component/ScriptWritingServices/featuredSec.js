@@ -14,7 +14,7 @@ const GhostwritingBanner = (props) => {
   return (
     <>
       <section className='w-full bg-white text-[#1d1d1f] py-4 font-secondary'>
-        <div className='max-w-7xl lg:max-w-6xl container mx-auto text-left justify-center items-center  md:text-center' >
+        <div className='sm:px-5 md:container px-14 text-left justify-center items-center  md:text-center' >
           <div className='flex sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 md:grid items-center md:mt-10 sm:mt-20 md:text-center' >
             <div className='basis-[50%] xs:w-[100%] xs:py-5 xs:px-6 md:mx-auto md:w-[95%] sm:px-5 sm:text-center sm:w-[100%] xs:text-center '>
               <h1 className='font-primary font-bold leading-[55px] text-5xl md:text-5xl xs:text-3xl md:mx-auto md:w-[90%] xs:w-[100%]'>

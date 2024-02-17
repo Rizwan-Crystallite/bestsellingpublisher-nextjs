@@ -14,7 +14,7 @@ const GhostwritingBanner = (props) => {
             style={{ backgroundImage: "url('/assets/images/newimg/web-copywriting-banner.png')" }}
           ></div>
         </div>
-        <div className='max-w-7xl lg:max-w-6xl  mx-auto text-left justify-center' >
+        <div className='sm:px-5 md:container px-14 text-left justify-center' >
           <div className='grid grid-cols-1  '>
             <div className='w-[75%]  md:w-[90%] md:mx-auto py-20 md:py-10 sm:text-center sm:w-[100%] xs:w-[100%] sm:py-5 sm:px-10 xs:py-5 xs:px-6 md:text-center xs:text-center '>
               <h1 className='w-[80%] md:w-[100%] lg:w-[80%] font-primary font-bold leading-tight text-5xl mt-12 md:mt-0 xs:mt-0 sm:text-4xl xs:text-3xl sm:py-5 xs:py-5 sm:w-[100%] xs:w-[100%]'>

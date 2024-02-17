@@ -15,7 +15,7 @@ const contactusfesc = (props) => {
           style={{ backgroundImage: "url('/assets/images/newimg/contact-banner.png')" }}
         ></div>
       </div>
-      <div className=' container max-w-7xl lg:max-w-6xl mx-auto text-left justify-center items-center py-24 xs:py-10' >
+      <div className='sm:px-5 md:container px-14 text-left justify-center items-center py-24 xs:py-10' >
         <div className='gird md:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 items-center' >
           <div className='w-[60%] sm:w-[100%] xs:w-[100%] xs:py-5 xs:px-6 g-2 sm:text-center md:text-center xs:text-center sm:px-10 '>
             <h1 className='w-[70%] font-primary md:w-[90%] font-bold leading-[50px] md:mx-auto text-5xl xs:text-3xl  sm:w-[100%] xs:w-[100%]'>

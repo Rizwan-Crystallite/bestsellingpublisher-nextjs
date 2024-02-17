@@ -895,3 +895,11 @@ input[type=number] {
       color: inherit !important;
    }
 }
+
+header .group:hover .group-hover\:opacity-100 {
+   opacity: 1 !important;
+}
+
+header .group:hover .group-hover\:visible {
+   visibility: visible !important;
+}

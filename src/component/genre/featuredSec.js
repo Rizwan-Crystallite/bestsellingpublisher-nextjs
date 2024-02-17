@@ -13,7 +13,7 @@ const GhostwritingBanner = (props) => {
         ></div>
       </div>
 
-      <div className='max-w-7xl lg:max-w-6xl container mx-auto text-left justify-center items-center py-36 md:py-16 sm:py-10 xs:py-10 ' >
+      <div className='sm:px-5 md:container px-14 text-left justify-center items-center py-36 md:py-16 sm:py-10 xs:py-10 ' >
         <div className='flex md:grid sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 md:mx-auto md:w-[90%] md:text-center' >
           <div className='basis  sm:w-[100%] xs:w-[100%] xs:py-0 xs:px-6 md:text-center sm:text-center xs:text-center sm:px-5'>
             <h1 className='w-[90%] md:w-[100%] font-bold font-primary leading-[60px] text-[52px] sm:text-4xl xs:text-3xl sm:w-[100%] xs:w-[100%]'>

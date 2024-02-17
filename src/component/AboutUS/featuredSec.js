@@ -10,7 +10,7 @@ const Aboutusfesc = (props) => {
           style={{ backgroundImage: "url('/assets/images/newimg/editing-banner.png')" }}
         ></div>
       </div>
-      <div className='relative z-20 container max-w-7xl lg:max-w-6xl mx-auto text-left justify-center items-center py-36 md:py-10 sm:py-10 xs:py-0' >
+      <div className='relative z-20  text-left justify-center items-center py-36 md:py-10 sm:py-10 sm:px-5 md:container px-14' >
         <div className='grid md:grid-cols-2 xs:grid sm:grid-cols-1 xs:grid-cols-1 xs:text-center items-center' >
           <div className='w-[55%] md:w-[100%] sm:mx-auto sm:w-[90%] sm:text-center xs:w-[100%] xs:py-5 xs:px-6 g-2 md:px-5 '>
             <h1 className=' font-bold leading-[60px] text-5xl md:text-4xl xs:text-4xl sm:w-[90%] xs:w-[100%]'>
