@@ -123,7 +123,7 @@ const swiperComponent = () => {
                                 init={false}
                                 ref={swiperElRef}
                                 centered-slides="true"
-                                //autoplay-delay="3000"
+                                autoplay-delay="3000"
                                 loop="true"
                                 pagination="true"
                                 pagination-clickable="true"
