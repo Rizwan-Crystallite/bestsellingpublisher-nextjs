@@ -18,7 +18,6 @@ const demandingSpecilaist = () => {
                 <div className="relative  text-white xs:mb-0" >
                     <div className='max-w-7xl lg:max-w-6xl mx-auto py-10 sm:px-5 xs:px-5 xs:py-0'>
                         <TABII />
-
                     </div>
 
                 </div>
