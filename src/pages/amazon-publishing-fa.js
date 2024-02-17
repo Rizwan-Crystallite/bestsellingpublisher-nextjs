@@ -19,7 +19,7 @@ import img2 from 'media/images/banner/img2.png'
 import broader from 'media/images/flods/amazonpublishingbroder.png'
 
 const amazonpublishing = () => {
-  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3 leading-tight'>Amazon Publishing <br /> Services Company To Make <br /> Your Book Available To <br /> Millions Of Readers!</h1>;
+  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3 leading-tight'>Amazon Publishing Services Company To Make Your Book Available To Millions Of Readers!</h1>;
 
   const bannertext = [
     {

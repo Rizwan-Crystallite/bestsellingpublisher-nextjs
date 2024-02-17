@@ -93,7 +93,7 @@ const Enlisted = ({
                             <div className='justify-content-center w-75 mx-auto'>
                                 <p className='py-3'>Best Selling Publisher brings your dream of book writing to life.</p>
                                 <div className={`${Bookshelf.bttns} dislpay-flex`}>
-                                    <Link className='btns btnBlack' href="#">Let's discuss</Link>
+                                    <Link className='btns btnBlack' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
                                     <Link className='btns btnTransprnt text-black' href="tel:(800)781-9093">(800)781-9093</Link>
                                 </div>
                             </div>

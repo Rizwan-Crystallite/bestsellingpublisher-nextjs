@@ -82,7 +82,7 @@ const Exceptional = ({
                             </Col>
                         ))}
                         <div className={`${Bookshelf.bttns} dislpay-flex mt-5 justify-content-center`}>
-                            <Link className='btns btnPrimary' href="#">Let's discuss</Link>
+                            <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
                             <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
                         </div>
                     </Row>
