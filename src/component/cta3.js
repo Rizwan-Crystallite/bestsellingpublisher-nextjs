@@ -84,7 +84,7 @@ const YourComponent = () => {
               </  p>
               <div className='mx-auto py-4'>
                 <div className='w-[60%] md:mx-auto gap-x-5 grid grid-cols-2 grid-rows-1 py-5 relative sm:mx-auto sm:w-[80%] xs:w-[100%]'>
-                  <a href='tel:(800)781-9093' className='bg-black py-1 text-white hover:bg-white hover:border-solid hover:border-[1px] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu flex items-center justify-center h-[40px]'>Get Started</a>
+                  <a href='tel:800-781-9093' className='bg-black py-1 text-white hover:bg-white hover:border-solid hover:border-[1px] hover:text-[#1d1d1f] hover:transition-all hover:transform-gpu flex items-center justify-center h-[40px]'>Get Started</a>
                   <a href='javascript:$zopim.livechat.window.show()' className='bg-[#1d1d1f] py-1 text-white border-solid border-[#1d1d1f] border-[2px] hover:bg-white hover:text-[#000] hover:border-[2px] hover:border-white flex items-center justify-center h-[40px]'>Live Chat</a>
                 </div>
               </div>

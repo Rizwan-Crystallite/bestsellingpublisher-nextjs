@@ -166,9 +166,9 @@ const Header = () => {
                   <li><Link href="/aboutus" className={`list text-black md:text-white text-[17px] font-[300]`}>About</Link></li>
                   <li><Link href="/contact-us" className={`list text-black md:text-white text-[17px] font-[300]`}>Contact Us</Link></li>
                   <li>
-                    <Link href="tel:(800)781-9093" className={`text-[17px] font-secondary text-[#40BEE2] flex items-center gap-x-3 font-[500]`}>
+                    <Link href="tel:800-781-9093" className={`text-[17px] font-secondary text-[#40BEE2] flex items-center gap-x-3 font-[500]`}>
                       <Image src={TelIcon} width={15} height={15} alt='Amazon Book Publishing' />
-                      <span className='border-l border-[#40BEE2] pl-[10px]'>(800)781-9093</span>
+                      <span className='border-l border-[#40BEE2] pl-[10px]'>800-781-9093</span>
                     </Link>
                   </li>
                 </ul>

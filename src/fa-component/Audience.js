@@ -20,7 +20,7 @@ const Audience = () => {
                                 <p className='font-15 font-secondary txt-white mb-5'>Best Selling Publisher brings your dream of book writing to life.</p>
                                 <div className={`${styles.bttns} mt-4 mb-5 mb-md-0`}>
                                     <Link className='btns btnBlack' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
-                                    <Link className='btns btnTransprnt' href="tel:(800)781-9093">(800)781-9093</Link>
+                                    <Link className='btns btnTransprnt' href="tel:800-781-9093">800-781-9093</Link>
                                 </div>
                             </div>
                         </Col>

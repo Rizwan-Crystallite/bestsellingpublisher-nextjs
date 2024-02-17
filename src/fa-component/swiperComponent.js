@@ -20,6 +20,12 @@ const swiperComponent = () => {
         .swiper-pagination-bullet-active {
           background: #00c0e4;
         }
+        .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: var(--swiper-pagination-bottom, -5px);
+            top: var(--swiper-pagination-top, auto);
+            left: 0px;
+            width: 100%;
+        }
       `,
             ],
             breakpoints: {

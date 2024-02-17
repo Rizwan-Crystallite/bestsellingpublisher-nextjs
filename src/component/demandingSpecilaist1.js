@@ -12,13 +12,13 @@ const demandingSpecilaist = (props) => {
                         <div>
                             <div className='m-5 z-10 relative'>
                                 <h6 className='text-[30px] text-[#40BEE2] font-semibold mb-3 sm:text-base xs:text-base font-primary'>Give Yourself The Experience Of</h6>
-                                <h2 className='text-[40px] sm:text-[30px] xs:text-[30px] font-primary font-bold leading-tight'>{props.title}
+                                <h2 className='text-[50px] sm:text-[30px] xs:text-[30px] font-primary font-bold leading-tight'>{props.title}
                                 </h2>
                                 <p className=' text-[16px] pt-3'>{props.desc}</p>
                             </div>
                             <div className='md:mt-[0px] sm:mt-[40px] xs:mt-[40px] relative z-auto' >
                                 <div className="container-xl max-w-7xl lg:max-w-6xl justify-center mx-auto ml-5 pr-5 xs:pr-0">
-                                    <h3 className='text-white text-[22px] font-normal font-primary w-80 bg-[#40BEE2] py-1 px-5 text-center demandingheading'>
+                                    <h3 className='text-white text-[25px] md:text-[20px] font-normal font-primary w-80 bg-[#40BEE2] py-1 px-5 text-center demandingheading'>
                                         Our Demanded Services
                                     </h3>
                                     <div className="mt-4 flex xs:w-[100%] xs:flex-none md:grid md:grid-cols-2 xs:grid font-semibold xs:grid-cols-1 gap-x-10 py-4 md:space-x-0 md:px-2 xs:space-x-0 xs:px-4">

@@ -24,7 +24,7 @@ const amazonpublishing = () => {
     {
       title: newSpan,
       discuss: `LET'S DISCUSS`,
-      homebannernum: '(800)781-9093',
+      homebannernum: '800-781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
       img2: img2,

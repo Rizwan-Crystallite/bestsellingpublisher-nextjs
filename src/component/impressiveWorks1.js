@@ -17,7 +17,7 @@ const impressiveWorks = (props) => {
                 <h6 className='text-[30px] text-[#40BEE2] font-semibold mb-3 sm:text-base xs:text-base xs:mb-1 font-primary'>
                   Our impressive work
                 </h6>
-                <h2 className='mx-auto w-[60%] sm:w-[90%] text-[40px] leading-tight font-bold text-[#1d1d1f] md:text-[30px] sm:text-[34px] xs:text-[30px] pb-3 xs:w-[100%]'>
+                <h2 className='mx-auto font-primary w-[60%] sm:w-[90%] text-[50px] leading-tight font-bold text-[#1d1d1f] md:text-[30px] sm:text-[34px] xs:text-[30px] pb-3 xs:w-[100%]'>
                   {props.title}
                 </h2>
                 <p className='justify-center w-[55%] sm:w-[90%] md:w-[90%] xs:w-[100%] mx-auto'>

@@ -68,13 +68,13 @@ const Exceptional = ({
                         {data?.map((e, i) => (
                             <Col key={i} lg={4} >
                                 <div className={`${styles.ExceptionalCard} bg-white text-left position-relative`}>
-                                    <h3 className='font-26 fw-700 font-primary txt-secondary1 pb-2'>{e.heading}</h3>
+                                    <h3 className='font-32 fw-700 font-primary txt-secondary1 pb-2'>{e.heading}</h3>
                                     <Row>
                                         <Col lg={7} md={7} sm={7} xs={6}>
-                                            <p className='font-15 font-secondary txt-secondary mt-3 '>{e.para}</p>
+                                            <p className='font-15 font-medium font-secondary txt-secondary mt-3 '>{e.para}</p>
                                         </Col>
                                         <Col lg={5} md={5} sm={5} xs={6}>
-                                            <Image src={e.path} alt={e.alt} quality={100} loading="lazy" width={200} height={100} className='img-fluid m-auto' />
+                                            <Image src={e.path} alt={e.alt} quality={100} loading="lazy" width={200} height={100} className='img-fluid block my-auto' />
                                         </Col>
                                     </Row>
                                     {/* <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link> */}
@@ -83,7 +83,7 @@ const Exceptional = ({
                         ))}
                         <div className={`${Bookshelf.bttns} dislpay-flex mt-5 justify-content-center`}>
                             <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
-                            <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
+                            <Link className='btns btnSecondary' href="tel:800-781-9093">800-781-9093</Link>
                         </div>
                     </Row>
                 </Container>

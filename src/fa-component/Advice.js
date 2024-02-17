@@ -27,12 +27,12 @@ const Advice = () => {
                         <Col lg={6}>
 
                             <div className={`${styles.adviceTxt} marginright`}>
-                                <h4 className='font-30 font-primary txt-primary mb-3'>Here’s a friendly piece of advice:</h4>
+                                <h4 className='font-30 font-primary txt-primary mb-3'><em>Here’s a friendly piece of advice:</em></h4>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary'>Your Job is half done when you have a Best Selling Publisher Take Charge!</h2>
                             </div>
                             <div className={`${Bookshelf.bttns} mt-5`}>
                                 <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
-                                <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
+                                <Link className='btns btnSecondary' href="tel:800-781-9093">800-781-9093</Link>
                             </div>
                         </Col>
                     </Row>

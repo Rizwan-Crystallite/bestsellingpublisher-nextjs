@@ -24,7 +24,7 @@ const Ghostwriting = () => {
           banneraffordable='seo'
           title='Amplify Your Brand Image Through SEO Content Writing'
           dec={` Create SEO-optimized content that converts and attracts more organic search traffic to boost your online visibility and credibility.`}
-          href1={<> <Link href="tel:(800)781-9093" data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="tel:800-781-9093" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
           </Link> </>}
           href2={<>

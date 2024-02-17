@@ -31,7 +31,7 @@ const Enlisted = ({
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-3' dangerouslySetInnerHTML={{ __html: title }}>
                                 
                                 </h2>
-                                <span className='bg-black txt-white mt-2 w-75 p-1 font-50 fw-500 d-block'>{desc}</span>
+                                <span className='bg-black txt-white mt-2 p-1 font-50 fw-500'>{desc}</span>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-3 w-75' dangerouslySetInnerHTML={{ __html: desc2 }} />
                             </div>
                         </Col>
@@ -75,7 +75,7 @@ const Enlisted = ({
                                 <p className='py-3'>Best Selling Publisher brings your dream of book writing to life.</p>
                                 <div className={`${Bookshelf.bttns} dislpay-flex`}>
                                     <Link className='btns btnBlack' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>
-                                    <Link className='btns btnTransprnt text-black' href="tel:(800)781-9093">(800)781-9093</Link>
+                                    <Link className='btns btnTransprnt text-black' href="tel:800-781-9093">800-781-9093</Link>
                                 </div>
                             </div>
 
@@ -97,7 +97,7 @@ const Enlisted = ({
 
                             <div className="bttns1black mt-4 mb-5 mb-md-0">
                                 <Link className="btns btnBlack" href="/#">Get Onboard </Link>
-                                <Link className="btns btnTransprnt" href="tel:(800)781-9093">(800) 781-9093</Link>
+                                <Link className="btns btnTransprnt" href="tel:800-781-9093">(800) 781-9093</Link>
                             </div>
                         </Col>
 
