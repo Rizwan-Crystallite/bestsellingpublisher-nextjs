@@ -10,6 +10,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import Router from "next/router";
+import Link from "next/link";
 
 const Bloginner = () => {
   const [score, setScore] = useState("Submit Form");
@@ -130,10 +131,18 @@ const Bloginner = () => {
               </ul>
               <h3 className=" text-[20px] font-bold mt-3 text-white">Follow Us:</h3>
               <div className="flex space-x-2 basis-8/12 items-center text-[12px] xs:text-center xs:mx-auto">
-                <FontAwesomeIcon icon={faFacebookF} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
-                <FontAwesomeIcon icon={faTwitter} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
-                <FontAwesomeIcon icon={faInstagram} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
-                <FontAwesomeIcon icon={faLinkedinIn} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
+                <Link href="https://www.facebook.com/Best-Selling-Publisher-103021665842266/?ref=page_internal">
+                  <FontAwesomeIcon icon={faFacebookF} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
+                </Link>
+                <Link href="https://twitter.com/bspublisher">
+                  <FontAwesomeIcon icon={faTwitter} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
+                </Link>
+                <Link href="javascript:;" target="_blank">
+                  <FontAwesomeIcon icon={faInstagram} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
+                </Link>
+                <Link href="javascript:;" target="_blank" >
+                  <FontAwesomeIcon icon={faLinkedinIn} className="rounded-[50%] text-[#fff] border-2 p-1 h-3 w-3" />
+                </Link>
               </div>
             </div>
           </div>
