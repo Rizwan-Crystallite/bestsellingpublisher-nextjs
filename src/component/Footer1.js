@@ -80,7 +80,7 @@ const NewFooter = () => {
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Quick Links</p>
                                     <ul>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Home
                                             </Link>
                                         </li>
@@ -90,12 +90,12 @@ const NewFooter = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/blog" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Blogs
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/aboutus" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 About
                                             </Link>
                                         </li>
@@ -105,12 +105,12 @@ const NewFooter = () => {
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Our Services</p>
                                     <ul>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/book-publishing-services" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Book Publishing
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/ebook-marketing-services" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Ebook Publishing
                                             </Link>
                                         </li>
@@ -120,7 +120,7 @@ const NewFooter = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="javascript:;" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="/amazon-publishing-fa" className='text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 Amazon  Publishing
                                             </Link>
                                         </li>
@@ -135,13 +135,13 @@ const NewFooter = () => {
                                     <p className='text-[16px] font-medium font-secondary pb-3'>Contact Us</p>
                                     <ul>
                                         <li className='xl:pb-5 pb-3'>
-                                            <Link href="mailto:;" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="mailto:info(@)bestsellingpublisher(.)com" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 <Image src={Tel} alt='Amazon Book Publishing ' className='min-h-[25px]object-contain ' />
                                                 info@bestsellingpublisher.com
                                             </Link>
                                         </li>
                                         <li className='xl:pb-5 pb-3'>
-                                            <Link href="javascript:;" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
+                                            <Link href="tel:(800) 781-9093" className='flex items-start gap-x-2 text-[13px] font-[400] font-secondary xl:leading-[25px] leading-[15px]'>
                                                 <Image src={Email} alt='Amazon Book Publishing ' className='object-contain w-[15px] h-[15px]' />
                                                 (800) 781-9093 (Toll Free)
                                             </Link>

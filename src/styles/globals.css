@@ -662,9 +662,11 @@ input[type=number] {
 .swiper-button-prev:focus {
    outline: none;
 }
+
 .swiper-pagination {
    margin-bottom: -1px !important;
 }
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1600px) {
@@ -870,11 +872,13 @@ input[type=number] {
       padding-left: 2%;
       margin-bottom: 15%;
    }
+
    .swiper-slide-active .card {
       box-shadow: 0 8px 0px -7px #707070;
       opacity: 1;
       transform: scale(1.4);
    }
+
    .space-x-6> :not([hidden])~ :not([hidden]) {
       margin-right: inherit !important;
       margin-left: inherit !important;
@@ -887,7 +891,7 @@ input[type=number] {
       display: none !important;
    }
 
-   a:hover {
+   header a:hover {
       color: inherit !important;
    }
 }

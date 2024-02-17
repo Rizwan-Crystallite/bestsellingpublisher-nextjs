@@ -14,8 +14,6 @@ import LogoSliders from '../component/bottomLogosNEW'
 
 
 
-
-
 const about = () => {
   return (
     <>
@@ -24,11 +22,11 @@ const about = () => {
           banneraffordable='aboutus'
           title='Take Your Book Where Your Audience Is'
           dec={`With thousands of publishing options to consider, our team helps you identify the right platform for your book. `}
-          href1={<> <Link href=" " data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="tel:(800)781-9093" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
           </Link> </>}
           href2={<>
-            <Link href=" " className="chat btn btn-white-border ml-4">
+            <Link href="javascript:$zopim.livechat.window.show()" className="chat btn btn-white-border ml-4">
               Live Chat
             </Link>
           </>}
