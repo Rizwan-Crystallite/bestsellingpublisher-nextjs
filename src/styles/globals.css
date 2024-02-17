@@ -605,6 +605,11 @@ input[type=number] {
    z-index: 1;
 }
 
+
+header a:hover {
+   color: #00C0E4;
+}
+
 .name {
    font-family: var(--primary-fonts);
    text-transform: capitalize;
@@ -764,6 +769,10 @@ input[type=number] {
       box-shadow: none;
       outline: none;
    }
+
+   header a:hover {
+      color: white;
+   }
 }
 
 /* ===================== */
@@ -891,7 +900,7 @@ input[type=number] {
       display: none !important;
    }
 
-   header a:hover {
+   /* header a:hover {
       color: inherit !important;
-   }
+   } */
 }
