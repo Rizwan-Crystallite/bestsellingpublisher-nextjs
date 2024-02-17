@@ -68,7 +68,7 @@ const Banner = (props) => {
             <section className={`${styles.homeBanner}`}>
                 <Container fluid className='px-md-5 justify-center items-center'>
                     <Row className='truealign'>
-                        <Col xl={6}>
+                        <Col lg={6}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -145,8 +145,8 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-45 fw-700 font-primary txt-secondary'>400</span>
-                                                        <p className='font-13 fw-800 font-primary txt-primary'>Million Words</p>
+                                                        <span className='font-50 fw-700 font-primary txt-secondary'>400</span>
+                                                        <p className='font-20 fw-800 font-primary txt-primary'>Million Words</p>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -157,8 +157,8 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-45 fw-700 font-primary txt-secondary'>100</span>
-                                                        <p className='font-13 fw-800 font-primary txt-primary'>Authors</p>
+                                                        <span className='font-50 fw-700 font-primary txt-secondary'>100</span>
+                                                        <p className='font-20 fw-800 font-primary txt-primary'>Authors</p>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -169,8 +169,8 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-45 fw-700 font-primary txt-secondary'>870</span>
-                                                        <p className='font-13 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
+                                                        <span className='font-50 fw-700 font-primary txt-secondary'>870</span>
+                                                        <p className='font-20 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -233,7 +233,7 @@ const Banner = (props) => {
 
                             </div>
                         </Col>
-                        <Col xl={6} className={styles.bannImg}>
+                        <Col lg={6} className={styles.bannImg}>
                             <div className={styles.bannerImg}>
                                 <Image quality={100} className='img-fluid m-auto'
                                     src={props.imageban}
