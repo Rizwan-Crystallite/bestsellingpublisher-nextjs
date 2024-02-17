@@ -8,7 +8,11 @@ const openZendeskChat = () => {
     window.zE('webWidget', 'open');
   }
 };
-const ghostWriting = () => {
+const ghostWriting = ({
+  serviceTitle,
+  serviceDesc,
+
+}) => {
   return (
     <>
       <section className="immaculate achieve bg-cover mb-8 pb-20 bg-[#f2f2f2]">
@@ -16,11 +20,9 @@ const ghostWriting = () => {
           <div className='grid grid-cols-2 items-center sm:grid-cols-1 xs:grid-cols-1'>
             <div className=''>
               <div className="text-left mb-0">
-                <h6 className='text-[30px] text-[#40BEE2] font-semibold'>Our Comprehensive</h6>
-                <h2 className='text-[40px] font-primary font-bold py-2 md:leading-tight xs:leading-tight'>Ghostwriting services</h2>
-                <p className='sm:text-justify xs:text-justify'>
-                  We have a vast pool of ghostwriters ready to work with you to work together with you to identify the ideal match for your requirements. Our packages offer comprehensive PR and media campaigns, an audiobook featuring a skilled voice actor, and top-notch studio production, all depending on your needs. Furthermore, we will create distribution and retailer accounts in your name, guaranteeing your ownership of all rights and royalties.
-                </p>
+                <h6 className='text-[30px] font-primary text-[#40BEE2] font-semibold'>Our Comprehensive</h6>
+                <h2 className='text-[40px] font-primary font-bold py-2 md:leading-tight xs:leading-tight'>{serviceTitle}</h2>
+                <p className='sm:text-justify xs:text-justify'>{serviceDesc}</p>
                 <br></br>
                 <p className=''>
                   Our process is simple and aims to deliver flawless results for every project.

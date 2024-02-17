@@ -33,7 +33,8 @@ const Ghostwriting = () => {
         />
         <LogoSliders />
         <LHPress />
-        <GhostWriting />
+        <GhostWriting serviceTitle="Press Release Writing Services"
+        serviceDesc="We have a vast pool of ghostwriters and will work with you to find the best match for your needs. You will receive a PR and media campaign, an audiobook with a professional voice actor, and high-quality studio production. Finally, distribution and retailer accounts will be established in your name, ensuring you own all rights and royalties."/>
         <CREATIVEGHOSTWRITERS />
 
         <CTA />
