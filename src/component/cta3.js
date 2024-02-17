@@ -76,9 +76,9 @@ const YourComponent = () => {
         <div className='w-full font-secondary bg-[#40BEE2]'>
           <div className='container max-w-7xl lg:max-w-6xl grid grid-cols-2 md:grid-cols-1 grid-rows-1 md:text-center text-left justify-center text-white sm:grid-cols-1 sm:px-5 xs:grid-cols-1 xs:px-2'>
             <div className='py-56 md:py-16 md:px-10 md:text-center sm:text-center items-center relative sm:py-16 xs:py-16 pr-15 '>
-              <h3 className='text-[40px] xs:text-center font-primary font-bold xs:text-[30px] leading-tight mb-3'>
+              <h3 className='text-[50px] xs:text-center font-primary font-semibold xs:text-[30px] leading-tight mb-3'>
                 Don’t Hesitate To <br /> Contact Us!
-                We Are <br /> <span className='text-[40px] inline-block bg-black text-white xs:text-center font-primary font-bold xs:text-[30px] leading-tight mb-3'>Working Round The Clock</span></h3>
+                We Are <br /> <span className='text-[50px] inline-block bg-black text-white xs:text-center font-primary font-semibold xs:text-[30px] leading-tight mb-3'>Working Round The Clock</span></h3>
               <p className='xs:text-center w-[90%] sm:mx-auto sm:w-[80%] xs:w-[100%]'>
                 If you need to contact us at any time of the day, don’t hesitate to reach out to our representatives.
               </  p>

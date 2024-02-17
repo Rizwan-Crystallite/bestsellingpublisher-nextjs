@@ -14,8 +14,8 @@ const marketBook1 = () => {
                 <div className='container max-w-7xl lg:max-w-6xl mx-auto py-24 md:py-10 grid grid-cols-2 md:grid-cols-1  grid-rows-1 md:px-6 sm:grid-cols-1 sm:w-[90%] sm:py-10 sm:px-3 xs:grid-cols-1 xs:grid-rows-1 xs:py-10 xs:px-3'>
                     <div className='py-16 sm:py-5'>
                         <div className=''>
-                            <h6 className='font-semibold text-[30px] font-primary text-[#40BEE2] mb-3 leading-tight'>Market your book</h6>
-                            <h2 className='text-[40px] font-primary font-semibold mb-3 leading-tight'>In the best possible way!
+                            <h6 className='font-semibold text-[30px] font-primary text-[#40BEE2] mb-2 leading-tight'>Market your book</h6>
+                            <h2 className='capitalize text-[45px] font-primary font-bold mb-3 leading-tight'>In the best possible way!
                             </h2>
                             <p className='text-[16px] leading-normal'>When selecting Barnett Ghostwriting, be assured that you have opted for a highly professional company serving as the definitive one-stop solution for all your marketing requirements.</p>
                         </div>

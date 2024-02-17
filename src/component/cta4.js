@@ -14,8 +14,8 @@ const cta4 = () => {
         <div className='container x:w-[100%] relative bg-[#00C0E4] m-0 mx-auto max-h-[300px] rounded-xl max-w-7xl lg:max-w-6xl text-left items-center text-white md:py-0 py-4 md:px-5 xs:px-5'>
           <div className='grid grid-cols-2 grid-rows-1 sm:grid-cols-1 items-center  xs:grid-cols-1  xs:justify-center xs:align-center'>
             <div className='py-0 pl-24 md:pl-0 sm:pl-10 xs:pl-0'>
-              <h2 className='text-white md:text-[35px] text-[25px] leading-tight font-bold font-primary relative text-left xs:text-left'>
-                Are You Ready To Be on the <br className='lg:block hidden' /> List of Best-Selling Authors? <br className='lg:block hidden' /> Let’s Work Together!
+              <h2 className='text-white md:text-[25px] text-[40px] leading-normal font-bold font-primary relative text-left xs:text-left'>
+                Are You Ready To Be on the <br className='block lg:hidden' /> List of Best-Selling Authors? <br className='block lg:hidden' /> <span className='inline-block bg-black'>Let’s Work Together!</span>
               </h2>
               <div className='w-[60%] md:w-[90%] sm:w-[90%] xs:w-[100%] grid grid-cols-2 grid-rows-1 gap-6 py-5 relative'>
                 <a href='tel:800-781-9093' className='bg-[#1d1d1f] py-1 text-white hover:bg-white hover:border-solid hover:border-[1px] hover:text-[#1d1d1f] hover:transition-all text-center flex items-center justify-center h-[40px]'>Get started</a>
