@@ -57,17 +57,17 @@ const NewFooter = () => {
                                 <p className='text-[13px] leading-[17px] font-[400] font-secondary pt-4 pb-5 md:w-full  w-11/12'>Best Selling Publishers offer a wide range of professional book publishing services to give life to your words. Let your words be of fine quality with our publishing services, contact us today!</p>
                                 <ul className='flex items-center gap-x-5'>
                                     <li>
-                                        <Link href="javascript:;">
+                                        <Link href="https://www.facebook.com/Best-Selling-Publisher-103021665842266/?ref=page_internal">
                                             <Image src={Instagram} alt='Amazon Book Publisher' />
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">
+                                        <Link href="https://twitter.com/bspublisher">
                                             <Image src={Twitter} alt='Amazon Book Publisher' />
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">
+                                        <Link href="https://www.facebook.com/Best-Selling-Publisher-103021665842266/?ref=page_internal">
                                             <Image src={Facebook} alt='Amazon Book Publisher' />
                                         </Link>
                                     </li>
