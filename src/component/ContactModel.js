@@ -22,13 +22,13 @@ const Bloginner = () => {
       name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
-      message: e.target.message.value,
+      comment: e.target.comments.value,
     }
 
     const JSONdata = JSON.stringify(data);
     console.log(JSONdata);
     setScore('Sending Data');
-    fetch('../api/form', {
+    fetch('../api/email/route', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -99,7 +99,7 @@ const Bloginner = () => {
                 <textarea
                   type="textarea"
                   id="message"
-                  name="message"
+                  name="comments"
                   className="p-3 h-36 bg-[#ededed] text-[#989898] border-b-2 border-[#fff] pb-2 w-full"
                   placeholder="Message"
                   required

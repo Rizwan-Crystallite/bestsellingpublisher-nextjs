@@ -2,39 +2,96 @@ import React from 'react'
 import styles from '@/styles/Formdata.module.css'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { useState } from 'react';
-import Router from 'next/router';
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 const Formdata = () => {
 
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
     const [score, setScore] = useState('Let`s discuss');
 
+    const router = useRouter();
+    const currentRoute = router.pathname;
+     const [pagenewurl, setPagenewurl] = useState('');
+      useEffect(() => {
+        const pagenewurl = window.location.href;
+        console.log(pagenewurl);
+        setPagenewurl(pagenewurl);
+      }, []);
+
     const handleSubmit = async (e) => {
-  
-      e.preventDefault()
-  
-      let bodyContent = JSON.stringify({
-        name: e.target.name.value,
-        email: e.target.email.value,
-        phone: e.target.phone.value,
-        message: e.target.comments.value,
-      });
-  
-      setScore('Wating For Sending Data');
-      let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-        method: "POST",
-        body: bodyContent
-      });
-  
-      let data = await response.text();
-      console.log(data);
-      e.target.reset();
-      setScore('Thank You');
-      const { pathname } = Router
-      if (pathname == pathname) {
-        Router.push('/thank-you')
-      }
-  
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.comments.value,
+            pageUrl: pagenewurl,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/email/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/ThankYou';
+        }
+
     }
     
     return (
