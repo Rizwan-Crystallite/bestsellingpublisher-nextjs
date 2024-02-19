@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
@@ -20,17 +21,6 @@ import banslider2 from 'media/images/banner/logo/2.png'
 import banslider3 from 'media/images/banner/logo/3.png'
 import banslider4 from 'media/images/banner/logo/4.png'
 
-// const customAnimation = keyframes`
-//   from {
-//     opacity: 0;
-//     transform: translate3d(-200px, -100px, 0);
-//   }
-
-//   to {
-//     opacity: 1;
-//     transform: translate3d(0, 0, 0);
-//   }
-// `;
 const Banner = (props) => {
 
     let bannerslider = {
@@ -63,132 +53,152 @@ const Banner = (props) => {
         ]
     };
 
+    const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+    const updateScreenSize = () => {
+        setIsLargeScreen(window.innerWidth >= 767); // Change the breakpoint to 992 pixels
+    };
+
+    useEffect(() => {
+        updateScreenSize();
+
+        const handleResize = () => {
+            updateScreenSize();
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            // Clean up the event listener
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
     return (
         <>
             <section className={`${styles.homeBanner}`}>
                 <Container fluid className='px-md-5 justify-center'>
-                    <Row className='truealign align-items-end'>
-                        <Col lg={6}>
-                            <div className={styles.bannerTxt}>
-                                {props.title ?
-                                    props.title
-                                    :
-                                    ''
-                                }
+                    {isLargeScreen && (
+                        <Row className='truealign align-items-end'>
+                            <Col lg={6}>
+                                <div className={styles.bannerTxt}>
+                                    {props.title ?
+                                        props.title
+                                        :
+                                        ''
+                                    }
 
-                                {props.text ?
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'>{props.text}</p>
-                                    :
-                                    ''
-                                }
+                                    {props.text ?
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.text}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.subtext ?
+                                    {props.subtext ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'>{props.subtext}</p>
-                                    :
-                                    ''
-                                }
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.subtext}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.subtext1 ?
+                                    {props.subtext1 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
-                                    :
-                                    ''
-                                }
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.subtext2 ?
+                                    {props.subtext2 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
-                                    :
-                                    ''
-                                }
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.subtext3 ?
+                                    {props.subtext3 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext3}</p>
-                                    :
-                                    ''
-                                }
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext3}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.subtext4 ?
+                                    {props.subtext4 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext4}</p>
-                                    :
-                                    ''
-                                }
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext4}</p>
+                                        :
+                                        ''
+                                    }
 
-                                {props.discuss ?
-                                    <div className={`${styles.bttns} mt-4`}>
-                                        <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">{props.discuss}</Link>
-                                        <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum}</Link>
-                                    </div>
-                                    :
-                                    ''
-                                }
+                                    {props.discuss ?
+                                        <div className={`${styles.bttns} mt-4`}>
+                                            <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">{props.discuss}</Link>
+                                            <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum}</Link>
+                                        </div>
+                                        :
+                                        ''
+                                    }
 
-                                {props.homebannernum2 ?
-                                    <div className={`${styles.bttns} mt-3`}>
-                                        <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum2}</Link>
-                                    </div>
-                                    :
-                                    ''
-                                }
+                                    {props.homebannernum2 ?
+                                        <div className={`${styles.bttns} mt-3`}>
+                                            <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum2}</Link>
+                                        </div>
+                                        :
+                                        ''
+                                    }
 
 
-                                {props.bannercounter ?
-                                    <div className={`${styles.count} mt-3 mainclass`}>
-                                        <Row className={styles.counteRow}>
-                                            <Col className='colo'>
-                                                <div className='d-flex align-items-center gap-3'>
-                                                    <Image quality={100} loading="lazy" className='img-fluid'
-                                                        src={alignicon}
-                                                        alt='Best_Publisher'
-                                                    />
-                                                    <div style={{lineHeight: 1}}>
-                                                        <span className='font-50 fw-700 font-primary txt-secondary'>400</span>
-                                                        <p className='font-20 fw-800 font-primary txt-primary'>Million Words</p>
+                                    {props.bannercounter ?
+                                        <div className={`${styles.count} mt-3 mainclass`}>
+                                            <Row className={styles.counteRow}>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-3'>
+                                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                                            src={alignicon}
+                                                            alt='Best_Publisher'
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>400</span>
+                                                            <p className='font-20 fw-800 font-primary txt-primary'>Million Words</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Col>
-                                            <Col className='colo'>
-                                                <div className='d-flex align-items-center gap-3'>
-                                                    <Image quality={100} loading="lazy" className='img-fluid'
-                                                        src={authoricon}
-                                                        alt='Best_Publisher'
-                                                    />
-                                                    <div style={{lineHeight: 1}}>
-                                                        <span className='font-50 fw-700 font-primary txt-secondary'>100</span>
-                                                        <p className='font-20 fw-800 font-primary txt-primary'>Authors</p>
+                                                </Col>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-3'>
+                                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                                            src={authoricon}
+                                                            alt='Best_Publisher'
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>100</span>
+                                                            <p className='font-20 fw-800 font-primary txt-primary'>Authors</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Col>
-                                            <Col className='colo'>
-                                                <div className='d-flex align-items-center gap-3'>
-                                                    <Image quality={100} loading="lazy" className='img-fluid'
-                                                        src={cupicon}
-                                                        alt='Best_Publisher'
-                                                    />
-                                                    <div style={{lineHeight: 1}}>
-                                                        <span className='font-50 fw-700 font-primary txt-secondary'>870</span>
-                                                        <p className='font-20 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
+                                                </Col>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-3'>
+                                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                                            src={cupicon}
+                                                            alt='Best_Publisher'
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>870</span>
+                                                            <p className='font-20 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                    :
-                                    ''
-                                }
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                        :
+                                        ''
+                                    }
 
-                                {props.img2 ?
-                                    <div className={styles.banshortimg} style={{paddingBottom: "50px"}}>
-                                        <Image quality={100} src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
-
-                                    </div>
-                                    :
-                                    ''
-                                }
-{/* 
+                                    {props.img2 ?
+                                        <div className={styles.banshortimg} style={{ paddingBottom: "50px" }}>
+                                            <Image quality={100} src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
+                                        </div>
+                                        :
+                                        ''
+                                    }
+                                    {/* 
                                 <Slider {...bannerslider} className='mt-4 gloslider'>
                                     <div>
                                         <Image quality={100} loading="lazy" className='img-fluid'
@@ -231,17 +241,200 @@ const Banner = (props) => {
 
 
 
-                            </div>
-                        </Col>
-                        <Col lg={6} className={styles.bannImg}>
-                            <div className={styles.bannerImg}>
-                                <Image quality={100} className='img-fluid m-auto'
-                                    src={props.imageban}
-                                    alt='Best_Publisher'
-                                />
-                            </div>
-                        </Col>
-                    </Row>
+                                </div>
+                            </Col>
+                            <Col lg={6} className={styles.bannImg}>
+                                <div className={styles.bannerImg}>
+                                    <Image quality={100} className='img-fluid m-auto'
+                                        src={props.imageban}
+                                        alt='Best_Publisher'
+                                    />
+                                </div>
+                            </Col>
+                        </Row>
+
+                    )}
+
+
+
+                    {!isLargeScreen && (
+                        <Row className='truealign align-items-end'>
+                            <Col lg={6}>
+                                <div className={styles.bannerTxt}>
+                                    {props.title ?
+                                        props.title
+                                        :
+                                        ''
+                                    }
+
+                                    {props.text ?
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.text}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.subtext ?
+
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'>{props.subtext}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.subtext1 ?
+
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.subtext2 ?
+
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.subtext3 ?
+
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext3}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.subtext4 ?
+
+                                        <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext4}</p>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.discuss ?
+                                        <div className={`${styles.bttns} mt-4`}>
+                                            <Link className='btns btnPrimary' href="javascript:$zopim.livechat.window.show()">{props.discuss}</Link>
+                                            <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum}</Link>
+                                        </div>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.homebannernum2 ?
+                                        <div className={`${styles.bttns} mt-3`}>
+                                            <Link className='btns btnSecondary' href="tel:800-781-9093"> {props.homebannernum2}</Link>
+                                        </div>
+                                        :
+                                        ''
+                                    }
+
+
+                                    {props.bannercounter ?
+                                        <div className={`${styles.count} mt-3 mainclass`}>
+                                            <Row className={styles.counteRow}>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-1 positio-relative'>
+                                                        <Image
+                                                            quality={100}
+                                                            loading="lazy"
+                                                            className='img-fluid'
+                                                            src={alignicon}
+                                                            alt='Best_Publisher'
+                                                            sizes="100vw"
+                                                            style={{
+                                                                width: '100%',
+                                                                height: 'auto',
+                                                            }}
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>400</span>
+                                                            <p className='font-14 fw-800 font-primary txt-primary'>Million Words</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-1'>
+                                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                                            src={authoricon}
+                                                            alt='Best_Publisher'
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>100</span>
+                                                            <p className='font-14 fw-800 font-primary txt-primary'>Authors</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                                <Col className='colo'>
+                                                    <div className='d-flex align-items-center gap-1'>
+                                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                                            src={cupicon}
+                                                            alt='Best_Publisher'
+                                                        />
+                                                        <div style={{ lineHeight: 1 }}>
+                                                            <span className='font-50 fw-700 font-primary txt-secondary'>870</span>
+                                                            <p className='font-14 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                        :
+                                        ''
+                                    }
+
+                                    {props.img2 ?
+                                        <div className={styles.banshortimg} style={{ paddingBottom: "20px" }}>
+                                            <Image quality={100} src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
+                                        </div>
+                                        :
+                                        ''
+                                    }
+                                    {/* 
+                                <Slider {...bannerslider} className='mt-4 gloslider'>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider1}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider2}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider3}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider4}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider1}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image quality={100} loading="lazy" className='img-fluid'
+                                            src={banslider2}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+
+                                </Slider> */}
+
+
+
+                                </div>
+                            </Col>
+                        </Row>
+                    )}
+
+
                     {/* <Reveal keyframes={customAnimation}>SADDADASDAS</Reveal> */}
 
                 </Container>

@@ -43,13 +43,13 @@ const Tradition = ({
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 575,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -63,7 +63,7 @@ const Tradition = ({
 
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
-                                <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>{title}</h2>
+                                <h2 className='font-50 fw-600 font-primary txt-secondary mb-3'>{title}</h2>
                                 <p className='font-15 font-secondary txt-secondary'>{desc}</p>
                                 <div className='m-auto justify-content-center'>
                                     <Image quality={100} loading="lazy" className='img-fluid justify-content-center'

@@ -22,7 +22,7 @@ const Broader = ({
 
                             <div className={`${styles.broaderTxt} marginleft`}>
                                 <h4 className='font-30 font-primary txt-primary'>{subtitle}</h4>
-                                <h2 className='font-50 fw-800 font-primary txt-secondary mb-4' dangerouslySetInnerHTML={{__html:title}} />
+                                <h2 className='font-50 fw-600 font-primary txt-secondary mb-4' dangerouslySetInnerHTML={{__html:title}} />
                                 <p className='font-15 font-secondary txt-secondary mb-4' dangerouslySetInnerHTML={{ __html: desc }}/>
                                 <div className={`${Bookshelf.bttns} dislpay-flex`}>
                                 <Link className='btns btnBlack' href="javascript:$zopim.livechat.window.show()">Let's discuss</Link>

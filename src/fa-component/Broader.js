@@ -18,7 +18,6 @@ const Broader = ({
                 <Container fluid className='p-0'>
                     <Row className={`${styles.broaderRow} justify-content-center`}>
                         <Col lg={6}>
-
                             <div className={`${styles.broaderTxt} marginleft`}>
                                 <h4 className='font-30 font-primary txt-primary'><em>{subtitle}</em></h4>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-4'>{title}</h2>
@@ -51,14 +50,12 @@ const Broader = ({
                             </div>
                         </Col>
                         <Col lg={6}>
-
                             <div className={styles.broaderImg}>
                                 <Image quality={100} loading="lazy" width={800} height={800} className='img-fluid'
                                     src={broader}
                                     alt='Best_Publisher'
                                 />
                             </div>
-
                         </Col>
                     </Row>
                 </Container>

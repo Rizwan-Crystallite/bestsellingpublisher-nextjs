@@ -34,7 +34,7 @@ const Header = () => {
                 </Link>
               </div>
               <nav className="flex space-x-4 text-[16px]   text-[#1d1d1f] font-medium">
-                <ul id="menu" className={`${menuOpen ? 'transform translate-x-0 md:hidden xs:hidden sm:hidden' : 'flex transition-transform duration-500  ease-in-out translate-x-0 md:translate-x-0 right-0 xs:text-white sm:text-white md:text-white md:bg-[#00c0e4] sm:bg-[#00c0e4] md:z-50 sm:z-50 md:text-[18px] xs:text-[18px] sm:text-[18px] md:block xs:block sm:block xs:fixed sm:fixed md:fixed xs:top-0 sm:top-0 md:top-0 sm:py-16 md:py-16 md:w-[70%] md:h-full xs:w-[320px] xs:h-full sm:w-[300px] sm:h-full xs:right-0 md:right-0 xs:px-10 leading-9 xs:py-16 xs:bg-[#00c0e4] xs:z-50 text-[#1d1d1f] '} flex gap-x-10 text-[#1d1d1f] cursor-default `}>
+                <ul id="menu" className={`${menuOpen ? 'transform translate-x-0 md:hidden xs:hidden sm:hidden' : 'flex transition-transform duration-500  ease-in-out translate-x-0 md:translate-x-0 right-0 xs:text-white sm:text-white md:text-white md:bg-[#fff] sm:bg-[#fff] md:z-50 sm:z-50 md:text-[18px] xs:text-[18px] sm:text-[18px] md:block xs:block sm:block xs:fixed sm:fixed md:fixed xs:top-0 sm:top-0 md:top-0 sm:py-16 md:py-16 md:w-[70%] md:h-full xs:w-[320px] xs:h-full sm:w-[300px] sm:h-full xs:right-0 md:right-0 md:pl-8 xs:px-10 leading-9 xs:py-16 xs:bg-[#fff] xs:z-50 text-[#1d1d1f] '} flex gap-x-10 text-[#1d1d1f] cursor-default `}>
                   <li className="xl:hidden lg:hidden sm:z-90 xs:z-90 fixed top-4 right-6">
                     <Link href="javascript:void(0)" className="text-right text-white text-4xl" onClick={toggleMenu}>
                       &times;

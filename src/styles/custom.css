@@ -24,7 +24,7 @@ html,
 body {
   color: var(--fonthead);
   padding: 0;
-  font-family: var(--font-sfprodisplay), sans-serif;
+  /* font-family: var(--font-sfprodisplay), sans-serif; */
 }
 
 header .list:hover {
@@ -580,9 +580,6 @@ p {
     display: none;
   }
 
-  .col {
-    display: none;
-  }
 
   .gallery {
     display: none;

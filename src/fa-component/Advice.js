@@ -11,7 +11,7 @@ const Advice = () => {
     return (
         <>
             <section className={styles.adviceFlod}>
-                <Container fluid className='p-0'>
+                <Container fluid className=''>
                     <Row className={`${styles.adviceRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
 
